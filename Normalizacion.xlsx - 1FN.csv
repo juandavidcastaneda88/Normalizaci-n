@@ -1,0 +1,602 @@
+"PRIMERA FORMA NORMAL (1FN) — sin grupos repetidos: una fila por producto vendido. Clave primaria compuesta: (ID_Venta, Producto)",,,,,,,,,,,,,,,
+ID_Venta,Producto,Fecha_Venta,Cliente_ID,Nombre_Cliente,Telefono_Cliente,Ciudad_Cliente,Vendedor_ID,Nombre_Vendedor,Sucursal,Categoria,Cantidad,Precio_Unitario,Metodo_Pago,Transportadora,Estado_Envio
+VTA0001,Teclado Redragon,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Transferencia,Servientrega,Pendiente
+VTA0001,Impresora HP,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Transferencia,Servientrega,Pendiente
+VTA0001,Router TP-Link,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,4,230.000,Transferencia,Servientrega,Pendiente
+VTA0002,Impresora HP,2026-05-25,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0002,Disco SSD 1TB,2026-05-25,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Almacenamiento,2,420.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0002,Monitor Samsung,2026-05-25,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,5,950.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0003,Impresora HP,2026-05-16,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Transferencia,Coordinadora,Pendiente
+VTA0003,Laptop Lenovo,2026-05-16,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Transferencia,Coordinadora,Pendiente
+VTA0003,Mouse Logitech,2026-05-16,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Transferencia,Coordinadora,Pendiente
+VTA0004,Router TP-Link,2026-06-06,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Redes,3,230.000,Transferencia,Coordinadora,Entregado
+VTA0004,Disco SSD 1TB,2026-06-06,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Almacenamiento,2,420.000,Transferencia,Coordinadora,Entregado
+VTA0004,Silla Gamer,2026-06-06,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,5,700.000,Transferencia,Coordinadora,Entregado
+VTA0005,Router TP-Link,2026-01-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Redes,5,230.000,Nequi,Coordinadora,Pendiente
+VTA0005,Laptop Lenovo,2026-01-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,5,2.500.000,Nequi,Coordinadora,Pendiente
+VTA0005,Mouse Logitech,2026-01-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,2,80.000,Nequi,Coordinadora,Pendiente
+VTA0006,Silla Gamer,2026-01-05,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Muebles,4,700.000,Transferencia,Servientrega,Enviado
+VTA0006,Disco SSD 1TB,2026-01-05,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Transferencia,Servientrega,Enviado
+VTA0006,Teclado Redragon,2026-01-05,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,3,150.000,Transferencia,Servientrega,Enviado
+VTA0007,Router TP-Link,2026-03-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,2,230.000,Nequi,Interrapidísimo,Enviado
+VTA0007,Teclado Redragon,2026-03-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,4,150.000,Nequi,Interrapidísimo,Enviado
+VTA0007,Monitor Samsung,2026-03-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Nequi,Interrapidísimo,Enviado
+VTA0008,Monitor Samsung,2026-05-01,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,950.000,Nequi,Coordinadora,Entregado
+VTA0008,Mouse Logitech,2026-05-01,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,3,80.000,Nequi,Coordinadora,Entregado
+VTA0008,Silla Gamer,2026-05-01,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Muebles,3,700.000,Nequi,Coordinadora,Entregado
+VTA0009,Router TP-Link,2026-06-12,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,3,230.000,Nequi,Coordinadora,Pendiente
+VTA0009,Teclado Redragon,2026-06-12,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,3,150.000,Nequi,Coordinadora,Pendiente
+VTA0009,Monitor Samsung,2026-06-12,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Nequi,Coordinadora,Pendiente
+VTA0010,Router TP-Link,2026-05-04,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Transferencia,Coordinadora,Enviado
+VTA0010,Laptop Lenovo,2026-05-04,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Transferencia,Coordinadora,Enviado
+VTA0010,Disco SSD 1TB,2026-05-04,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Almacenamiento,3,420.000,Transferencia,Coordinadora,Enviado
+VTA0011,Silla Gamer,2026-05-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,5,700.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0011,Monitor Samsung,2026-05-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,4,950.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0011,Teclado Redragon,2026-05-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,3,150.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0012,Impresora HP,2026-04-30,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Oficina,3,650.000,Efectivo,Interrapidísimo,Enviado
+VTA0012,Router TP-Link,2026-04-30,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Efectivo,Interrapidísimo,Enviado
+VTA0012,Silla Gamer,2026-04-30,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,4,700.000,Efectivo,Interrapidísimo,Enviado
+VTA0013,Monitor Samsung,2026-06-30,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,4,950.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0013,Router TP-Link,2026-06-30,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,4,230.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0013,Silla Gamer,2026-06-30,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Muebles,4,700.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0014,Impresora HP,2026-02-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Oficina,2,650.000,Efectivo,Interrapidísimo,Entregado
+VTA0014,Mouse Logitech,2026-02-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Efectivo,Interrapidísimo,Entregado
+VTA0014,Disco SSD 1TB,2026-02-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Efectivo,Interrapidísimo,Entregado
+VTA0015,Laptop Lenovo,2026-06-13,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,3,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0015,Teclado Redragon,2026-06-13,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Nequi,Interrapidísimo,Enviado
+VTA0015,Mouse Logitech,2026-06-13,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Nequi,Interrapidísimo,Enviado
+VTA0016,Impresora HP,2026-06-27,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Oficina,3,650.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0016,Monitor Samsung,2026-06-27,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,950.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0016,Mouse Logitech,2026-06-27,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,3,80.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0017,Silla Gamer,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Transferencia,Interrapidísimo,Entregado
+VTA0017,Impresora HP,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Transferencia,Interrapidísimo,Entregado
+VTA0017,Disco SSD 1TB,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Transferencia,Interrapidísimo,Entregado
+VTA0018,Silla Gamer,2026-03-03,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Muebles,1,700.000,Nequi,Servientrega,Pendiente
+VTA0018,Mouse Logitech,2026-03-03,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Nequi,Servientrega,Pendiente
+VTA0018,Disco SSD 1TB,2026-03-03,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Nequi,Servientrega,Pendiente
+VTA0019,Disco SSD 1TB,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0019,Silla Gamer,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0019,Teclado Redragon,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0020,Impresora HP,2026-05-30,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Nequi,Coordinadora,Pendiente
+VTA0020,Disco SSD 1TB,2026-05-30,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Nequi,Coordinadora,Pendiente
+VTA0020,Monitor Samsung,2026-05-30,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Nequi,Coordinadora,Pendiente
+VTA0021,Router TP-Link,2026-03-27,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Efectivo,Coordinadora,Pendiente
+VTA0021,Disco SSD 1TB,2026-03-27,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,5,420.000,Efectivo,Coordinadora,Pendiente
+VTA0021,Teclado Redragon,2026-03-27,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Efectivo,Coordinadora,Pendiente
+VTA0022,Disco SSD 1TB,2026-01-16,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Almacenamiento,3,420.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0022,Mouse Logitech,2026-01-16,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,2,80.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0022,Impresora HP,2026-01-16,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0023,Router TP-Link,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Efectivo,Interrapidísimo,Enviado
+VTA0023,Teclado Redragon,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,4,150.000,Efectivo,Interrapidísimo,Enviado
+VTA0023,Impresora HP,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Efectivo,Interrapidísimo,Enviado
+VTA0024,Laptop Lenovo,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,3,2.500.000,Transferencia,Servientrega,Entregado
+VTA0024,Disco SSD 1TB,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Transferencia,Servientrega,Entregado
+VTA0024,Monitor Samsung,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,4,950.000,Transferencia,Servientrega,Entregado
+VTA0025,Mouse Logitech,2026-04-17,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Transferencia,Coordinadora,Pendiente
+VTA0025,Monitor Samsung,2026-04-17,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,4,950.000,Transferencia,Coordinadora,Pendiente
+VTA0025,Router TP-Link,2026-04-17,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Redes,2,230.000,Transferencia,Coordinadora,Pendiente
+VTA0026,Disco SSD 1TB,2026-06-20,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Nequi,Interrapidísimo,Enviado
+VTA0026,Laptop Lenovo,2026-06-20,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,2,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0026,Teclado Redragon,2026-06-20,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Nequi,Interrapidísimo,Enviado
+VTA0027,Teclado Redragon,2026-04-11,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Transferencia,Interrapidísimo,Enviado
+VTA0027,Silla Gamer,2026-04-11,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Muebles,4,700.000,Transferencia,Interrapidísimo,Enviado
+VTA0027,Impresora HP,2026-04-11,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Oficina,4,650.000,Transferencia,Interrapidísimo,Enviado
+VTA0028,Impresora HP,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,3,650.000,Nequi,Coordinadora,Enviado
+VTA0028,Silla Gamer,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Nequi,Coordinadora,Enviado
+VTA0028,Mouse Logitech,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Nequi,Coordinadora,Enviado
+VTA0029,Monitor Samsung,2026-04-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,4,950.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0029,Mouse Logitech,2026-04-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,1,80.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0029,Teclado Redragon,2026-04-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0030,Silla Gamer,2026-04-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Nequi,Interrapidísimo,Entregado
+VTA0030,Router TP-Link,2026-04-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,1,230.000,Nequi,Interrapidísimo,Entregado
+VTA0030,Laptop Lenovo,2026-04-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,1,2.500.000,Nequi,Interrapidísimo,Entregado
+VTA0031,Silla Gamer,2026-02-04,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Muebles,1,700.000,Nequi,Coordinadora,Enviado
+VTA0031,Disco SSD 1TB,2026-02-04,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,3,420.000,Nequi,Coordinadora,Enviado
+VTA0031,Impresora HP,2026-02-04,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Nequi,Coordinadora,Enviado
+VTA0032,Disco SSD 1TB,2026-01-07,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Almacenamiento,5,420.000,Transferencia,Servientrega,Pendiente
+VTA0032,Router TP-Link,2026-01-07,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,1,230.000,Transferencia,Servientrega,Pendiente
+VTA0032,Monitor Samsung,2026-01-07,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Transferencia,Servientrega,Pendiente
+VTA0033,Laptop Lenovo,2026-05-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,4,2.500.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0033,Router TP-Link,2026-05-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Redes,5,230.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0033,Silla Gamer,2026-05-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Muebles,5,700.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0034,Silla Gamer,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0034,Monitor Samsung,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,3,950.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0034,Laptop Lenovo,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,3,2.500.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0035,Router TP-Link,2026-03-23,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,4,230.000,Transferencia,Interrapidísimo,Enviado
+VTA0035,Silla Gamer,2026-03-23,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Transferencia,Interrapidísimo,Enviado
+VTA0035,Mouse Logitech,2026-03-23,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Transferencia,Interrapidísimo,Enviado
+VTA0036,Laptop Lenovo,2026-02-20,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Transferencia,Servientrega,Entregado
+VTA0036,Silla Gamer,2026-02-20,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,2,700.000,Transferencia,Servientrega,Entregado
+VTA0036,Disco SSD 1TB,2026-02-20,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Transferencia,Servientrega,Entregado
+VTA0037,Mouse Logitech,2026-06-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Nequi,Interrapidísimo,Enviado
+VTA0037,Impresora HP,2026-06-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Nequi,Interrapidísimo,Enviado
+VTA0037,Silla Gamer,2026-06-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Nequi,Interrapidísimo,Enviado
+VTA0038,Disco SSD 1TB,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Transferencia,Interrapidísimo,Pendiente
+VTA0038,Silla Gamer,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Muebles,2,700.000,Transferencia,Interrapidísimo,Pendiente
+VTA0038,Router TP-Link,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,5,230.000,Transferencia,Interrapidísimo,Pendiente
+VTA0039,Mouse Logitech,2026-04-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Transferencia,Servientrega,Entregado
+VTA0039,Monitor Samsung,2026-04-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,1,950.000,Transferencia,Servientrega,Entregado
+VTA0039,Silla Gamer,2026-04-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Transferencia,Servientrega,Entregado
+VTA0040,Router TP-Link,2026-01-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Redes,3,230.000,Transferencia,Servientrega,Entregado
+VTA0040,Monitor Samsung,2026-01-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,1,950.000,Transferencia,Servientrega,Entregado
+VTA0040,Disco SSD 1TB,2026-01-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Transferencia,Servientrega,Entregado
+VTA0041,Impresora HP,2026-06-16,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Oficina,3,650.000,Transferencia,Servientrega,Enviado
+VTA0041,Monitor Samsung,2026-06-16,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,5,950.000,Transferencia,Servientrega,Enviado
+VTA0041,Laptop Lenovo,2026-06-16,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,4,2.500.000,Transferencia,Servientrega,Enviado
+VTA0042,Router TP-Link,2026-05-07,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Nequi,Interrapidísimo,Pendiente
+VTA0042,Laptop Lenovo,2026-05-07,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,4,2.500.000,Nequi,Interrapidísimo,Pendiente
+VTA0042,Impresora HP,2026-05-07,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Oficina,5,650.000,Nequi,Interrapidísimo,Pendiente
+VTA0043,Monitor Samsung,2026-06-06,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,4,950.000,Efectivo,Coordinadora,Pendiente
+VTA0043,Impresora HP,2026-06-06,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Efectivo,Coordinadora,Pendiente
+VTA0043,Disco SSD 1TB,2026-06-06,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Efectivo,Coordinadora,Pendiente
+VTA0044,Silla Gamer,2026-06-13,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0044,Disco SSD 1TB,2026-06-13,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Almacenamiento,3,420.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0044,Mouse Logitech,2026-06-13,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,1,80.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0045,Laptop Lenovo,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Transferencia,Interrapidísimo,Enviado
+VTA0045,Teclado Redragon,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Transferencia,Interrapidísimo,Enviado
+VTA0045,Impresora HP,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Transferencia,Interrapidísimo,Enviado
+VTA0046,Monitor Samsung,2026-04-12,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,2,950.000,Nequi,Servientrega,Entregado
+VTA0046,Laptop Lenovo,2026-04-12,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,1,2.500.000,Nequi,Servientrega,Entregado
+VTA0046,Teclado Redragon,2026-04-12,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Nequi,Servientrega,Entregado
+VTA0047,Monitor Samsung,2026-05-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Nequi,Servientrega,Pendiente
+VTA0047,Mouse Logitech,2026-05-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Nequi,Servientrega,Pendiente
+VTA0047,Disco SSD 1TB,2026-05-15,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Nequi,Servientrega,Pendiente
+VTA0048,Laptop Lenovo,2026-01-14,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,3,2.500.000,Efectivo,Servientrega,Enviado
+VTA0048,Monitor Samsung,2026-01-14,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,4,950.000,Efectivo,Servientrega,Enviado
+VTA0048,Impresora HP,2026-01-14,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Oficina,1,650.000,Efectivo,Servientrega,Enviado
+VTA0049,Router TP-Link,2026-02-07,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Nequi,Servientrega,Enviado
+VTA0049,Disco SSD 1TB,2026-02-07,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,2,420.000,Nequi,Servientrega,Enviado
+VTA0049,Impresora HP,2026-02-07,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Oficina,4,650.000,Nequi,Servientrega,Enviado
+VTA0050,Impresora HP,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Transferencia,Coordinadora,Enviado
+VTA0050,Mouse Logitech,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,1,80.000,Transferencia,Coordinadora,Enviado
+VTA0050,Teclado Redragon,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Transferencia,Coordinadora,Enviado
+VTA0051,Router TP-Link,2026-01-16,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Redes,1,230.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0051,Monitor Samsung,2026-01-16,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0051,Teclado Redragon,2026-01-16,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0052,Impresora HP,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,4,650.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0052,Silla Gamer,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Muebles,4,700.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0052,Disco SSD 1TB,2026-04-10,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0053,Teclado Redragon,2026-05-01,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0053,Monitor Samsung,2026-05-01,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0053,Laptop Lenovo,2026-05-01,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0054,Router TP-Link,2026-05-16,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Redes,4,230.000,Nequi,Coordinadora,Enviado
+VTA0054,Laptop Lenovo,2026-05-16,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Nequi,Coordinadora,Enviado
+VTA0054,Mouse Logitech,2026-05-16,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Nequi,Coordinadora,Enviado
+VTA0055,Silla Gamer,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Nequi,Servientrega,Enviado
+VTA0055,Disco SSD 1TB,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Nequi,Servientrega,Enviado
+VTA0055,Router TP-Link,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Nequi,Servientrega,Enviado
+VTA0056,Monitor Samsung,2026-06-11,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Transferencia,Interrapidísimo,Entregado
+VTA0056,Laptop Lenovo,2026-06-11,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Transferencia,Interrapidísimo,Entregado
+VTA0056,Mouse Logitech,2026-06-11,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,1,80.000,Transferencia,Interrapidísimo,Entregado
+VTA0057,Silla Gamer,2026-06-23,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Nequi,Interrapidísimo,Enviado
+VTA0057,Router TP-Link,2026-06-23,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,5,230.000,Nequi,Interrapidísimo,Enviado
+VTA0057,Laptop Lenovo,2026-06-23,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0058,Monitor Samsung,2026-06-15,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Nequi,Interrapidísimo,Enviado
+VTA0058,Router TP-Link,2026-06-15,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Redes,2,230.000,Nequi,Interrapidísimo,Enviado
+VTA0058,Teclado Redragon,2026-06-15,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,4,150.000,Nequi,Interrapidísimo,Enviado
+VTA0059,Teclado Redragon,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0059,Disco SSD 1TB,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0059,Silla Gamer,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0060,Teclado Redragon,2026-05-09,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,5,150.000,Transferencia,Coordinadora,Entregado
+VTA0060,Impresora HP,2026-05-09,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Oficina,4,650.000,Transferencia,Coordinadora,Entregado
+VTA0060,Mouse Logitech,2026-05-09,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Transferencia,Coordinadora,Entregado
+VTA0061,Disco SSD 1TB,2026-01-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Nequi,Coordinadora,Enviado
+VTA0061,Mouse Logitech,2026-01-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Nequi,Coordinadora,Enviado
+VTA0061,Impresora HP,2026-01-13,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Nequi,Coordinadora,Enviado
+VTA0062,Laptop Lenovo,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,1,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0062,Monitor Samsung,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,2,950.000,Nequi,Interrapidísimo,Enviado
+VTA0062,Router TP-Link,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Nequi,Interrapidísimo,Enviado
+VTA0063,Mouse Logitech,2026-02-25,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,1,80.000,Efectivo,Interrapidísimo,Pendiente
+VTA0063,Monitor Samsung,2026-02-25,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Efectivo,Interrapidísimo,Pendiente
+VTA0063,Teclado Redragon,2026-02-25,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Efectivo,Interrapidísimo,Pendiente
+VTA0064,Disco SSD 1TB,2026-03-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Efectivo,Servientrega,Entregado
+VTA0064,Teclado Redragon,2026-03-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Efectivo,Servientrega,Entregado
+VTA0064,Mouse Logitech,2026-03-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Efectivo,Servientrega,Entregado
+VTA0065,Laptop Lenovo,2026-03-03,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Nequi,Coordinadora,Entregado
+VTA0065,Router TP-Link,2026-03-03,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Redes,2,230.000,Nequi,Coordinadora,Entregado
+VTA0065,Disco SSD 1TB,2026-03-03,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,3,420.000,Nequi,Coordinadora,Entregado
+VTA0066,Mouse Logitech,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Efectivo,Servientrega,Enviado
+VTA0066,Monitor Samsung,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Efectivo,Servientrega,Enviado
+VTA0066,Laptop Lenovo,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Efectivo,Servientrega,Enviado
+VTA0067,Monitor Samsung,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Transferencia,Servientrega,Enviado
+VTA0067,Router TP-Link,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Transferencia,Servientrega,Enviado
+VTA0067,Silla Gamer,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Transferencia,Servientrega,Enviado
+VTA0068,Impresora HP,2026-01-07,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Oficina,3,650.000,Efectivo,Interrapidísimo,Pendiente
+VTA0068,Teclado Redragon,2026-01-07,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,3,150.000,Efectivo,Interrapidísimo,Pendiente
+VTA0068,Disco SSD 1TB,2026-01-07,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,5,420.000,Efectivo,Interrapidísimo,Pendiente
+VTA0069,Laptop Lenovo,2026-05-19,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Transferencia,Servientrega,Pendiente
+VTA0069,Teclado Redragon,2026-05-19,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Transferencia,Servientrega,Pendiente
+VTA0069,Silla Gamer,2026-05-19,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Muebles,3,700.000,Transferencia,Servientrega,Pendiente
+VTA0070,Teclado Redragon,2026-01-09,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0070,Mouse Logitech,2026-01-09,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0070,Router TP-Link,2026-01-09,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0071,Disco SSD 1TB,2026-04-08,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,2,420.000,Transferencia,Coordinadora,Enviado
+VTA0071,Impresora HP,2026-04-08,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Transferencia,Coordinadora,Enviado
+VTA0071,Mouse Logitech,2026-04-08,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Transferencia,Coordinadora,Enviado
+VTA0072,Teclado Redragon,2026-04-22,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Nequi,Interrapidísimo,Pendiente
+VTA0072,Laptop Lenovo,2026-04-22,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Nequi,Interrapidísimo,Pendiente
+VTA0072,Router TP-Link,2026-04-22,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Redes,2,230.000,Nequi,Interrapidísimo,Pendiente
+VTA0073,Laptop Lenovo,2026-04-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0073,Router TP-Link,2026-04-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Redes,2,230.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0073,Disco SSD 1TB,2026-04-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,3,420.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0074,Mouse Logitech,2026-02-28,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,2,80.000,Transferencia,Servientrega,Pendiente
+VTA0074,Teclado Redragon,2026-02-28,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,4,150.000,Transferencia,Servientrega,Pendiente
+VTA0074,Silla Gamer,2026-02-28,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Muebles,2,700.000,Transferencia,Servientrega,Pendiente
+VTA0075,Monitor Samsung,2026-05-08,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Nequi,Servientrega,Enviado
+VTA0075,Teclado Redragon,2026-05-08,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Nequi,Servientrega,Enviado
+VTA0075,Mouse Logitech,2026-05-08,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,4,80.000,Nequi,Servientrega,Enviado
+VTA0076,Router TP-Link,2026-02-06,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,4,230.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0076,Teclado Redragon,2026-02-06,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0076,Impresora HP,2026-02-06,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Oficina,2,650.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0077,Teclado Redragon,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0077,Disco SSD 1TB,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0077,Impresora HP,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0078,Monitor Samsung,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Transferencia,Interrapidísimo,Pendiente
+VTA0078,Impresora HP,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,3,650.000,Transferencia,Interrapidísimo,Pendiente
+VTA0078,Teclado Redragon,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Transferencia,Interrapidísimo,Pendiente
+VTA0079,Mouse Logitech,2026-06-25,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,1,80.000,Transferencia,Servientrega,Entregado
+VTA0079,Silla Gamer,2026-06-25,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,3,700.000,Transferencia,Servientrega,Entregado
+VTA0079,Monitor Samsung,2026-06-25,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Transferencia,Servientrega,Entregado
+VTA0080,Disco SSD 1TB,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,3,420.000,Nequi,Interrapidísimo,Entregado
+VTA0080,Monitor Samsung,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Nequi,Interrapidísimo,Entregado
+VTA0080,Silla Gamer,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Nequi,Interrapidísimo,Entregado
+VTA0081,Laptop Lenovo,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,4,2.500.000,Efectivo,Coordinadora,Pendiente
+VTA0081,Monitor Samsung,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Efectivo,Coordinadora,Pendiente
+VTA0081,Mouse Logitech,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,2,80.000,Efectivo,Coordinadora,Pendiente
+VTA0082,Mouse Logitech,2026-02-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Transferencia,Interrapidísimo,Enviado
+VTA0082,Disco SSD 1TB,2026-02-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Almacenamiento,2,420.000,Transferencia,Interrapidísimo,Enviado
+VTA0082,Silla Gamer,2026-02-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Transferencia,Interrapidísimo,Enviado
+VTA0083,Laptop Lenovo,2026-04-16,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,5,2.500.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0083,Mouse Logitech,2026-04-16,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0083,Impresora HP,2026-04-16,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0084,Mouse Logitech,2026-01-31,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,5,80.000,Transferencia,Servientrega,Pendiente
+VTA0084,Impresora HP,2026-01-31,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,2,650.000,Transferencia,Servientrega,Pendiente
+VTA0084,Monitor Samsung,2026-01-31,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,1,950.000,Transferencia,Servientrega,Pendiente
+VTA0085,Laptop Lenovo,2026-03-20,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,2,2.500.000,Transferencia,Coordinadora,Pendiente
+VTA0085,Mouse Logitech,2026-03-20,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Transferencia,Coordinadora,Pendiente
+VTA0085,Disco SSD 1TB,2026-03-20,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Almacenamiento,3,420.000,Transferencia,Coordinadora,Pendiente
+VTA0086,Monitor Samsung,2026-05-26,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Efectivo,Servientrega,Enviado
+VTA0086,Silla Gamer,2026-05-26,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Efectivo,Servientrega,Enviado
+VTA0086,Laptop Lenovo,2026-05-26,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Efectivo,Servientrega,Enviado
+VTA0087,Monitor Samsung,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Efectivo,Interrapidísimo,Pendiente
+VTA0087,Teclado Redragon,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Efectivo,Interrapidísimo,Pendiente
+VTA0087,Disco SSD 1TB,2026-01-29,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,2,420.000,Efectivo,Interrapidísimo,Pendiente
+VTA0088,Laptop Lenovo,2026-05-22,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,5,2.500.000,Efectivo,Interrapidísimo,Pendiente
+VTA0088,Router TP-Link,2026-05-22,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,4,230.000,Efectivo,Interrapidísimo,Pendiente
+VTA0088,Monitor Samsung,2026-05-22,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Efectivo,Interrapidísimo,Pendiente
+VTA0089,Router TP-Link,2026-03-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,5,230.000,Efectivo,Servientrega,Pendiente
+VTA0089,Impresora HP,2026-03-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,5,650.000,Efectivo,Servientrega,Pendiente
+VTA0089,Teclado Redragon,2026-03-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Efectivo,Servientrega,Pendiente
+VTA0090,Disco SSD 1TB,2026-06-10,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,2,420.000,Nequi,Interrapidísimo,Enviado
+VTA0090,Laptop Lenovo,2026-06-10,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,5,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0090,Teclado Redragon,2026-06-10,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,4,150.000,Nequi,Interrapidísimo,Enviado
+VTA0091,Impresora HP,2026-01-02,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Oficina,5,650.000,Nequi,Servientrega,Pendiente
+VTA0091,Silla Gamer,2026-01-02,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Nequi,Servientrega,Pendiente
+VTA0091,Mouse Logitech,2026-01-02,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Nequi,Servientrega,Pendiente
+VTA0092,Teclado Redragon,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,4,150.000,Efectivo,Coordinadora,Enviado
+VTA0092,Silla Gamer,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Efectivo,Coordinadora,Enviado
+VTA0092,Monitor Samsung,2026-06-14,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,2,950.000,Efectivo,Coordinadora,Enviado
+VTA0093,Monitor Samsung,2026-01-29,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Nequi,Coordinadora,Pendiente
+VTA0093,Silla Gamer,2026-01-29,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Nequi,Coordinadora,Pendiente
+VTA0093,Router TP-Link,2026-01-29,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Nequi,Coordinadora,Pendiente
+VTA0094,Monitor Samsung,2026-06-21,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Efectivo,Interrapidísimo,Enviado
+VTA0094,Silla Gamer,2026-06-21,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Efectivo,Interrapidísimo,Enviado
+VTA0094,Laptop Lenovo,2026-06-21,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Efectivo,Interrapidísimo,Enviado
+VTA0095,Mouse Logitech,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0095,Router TP-Link,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Redes,4,230.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0095,Teclado Redragon,2026-05-19,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,5,150.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0096,Router TP-Link,2026-01-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0096,Mouse Logitech,2026-01-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0096,Impresora HP,2026-01-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0097,Laptop Lenovo,2026-03-22,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,4,2.500.000,Efectivo,Interrapidísimo,Pendiente
+VTA0097,Monitor Samsung,2026-03-22,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Efectivo,Interrapidísimo,Pendiente
+VTA0097,Disco SSD 1TB,2026-03-22,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Efectivo,Interrapidísimo,Pendiente
+VTA0098,Impresora HP,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Oficina,4,650.000,Efectivo,Interrapidísimo,Entregado
+VTA0098,Silla Gamer,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Efectivo,Interrapidísimo,Entregado
+VTA0098,Teclado Redragon,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Efectivo,Interrapidísimo,Entregado
+VTA0099,Silla Gamer,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0099,Laptop Lenovo,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,1,2.500.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0099,Mouse Logitech,2026-04-06,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,3,80.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0100,Silla Gamer,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0100,Teclado Redragon,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0100,Impresora HP,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0101,Disco SSD 1TB,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Nequi,Servientrega,Pendiente
+VTA0101,Router TP-Link,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Redes,1,230.000,Nequi,Servientrega,Pendiente
+VTA0101,Impresora HP,2026-02-12,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Nequi,Servientrega,Pendiente
+VTA0102,Teclado Redragon,2026-02-20,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Nequi,Coordinadora,Entregado
+VTA0102,Disco SSD 1TB,2026-02-20,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Nequi,Coordinadora,Entregado
+VTA0102,Laptop Lenovo,2026-02-20,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Nequi,Coordinadora,Entregado
+VTA0103,Router TP-Link,2026-03-11,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Redes,5,230.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0103,Teclado Redragon,2026-03-11,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0103,Silla Gamer,2026-03-11,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,5,700.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0104,Router TP-Link,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Redes,3,230.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0104,Silla Gamer,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0104,Mouse Logitech,2026-01-24,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,3,80.000,Tarjeta Crédito,Coordinadora,Entregado
+VTA0105,Monitor Samsung,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,1,950.000,Efectivo,Coordinadora,Enviado
+VTA0105,Silla Gamer,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Muebles,4,700.000,Efectivo,Coordinadora,Enviado
+VTA0105,Mouse Logitech,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,5,80.000,Efectivo,Coordinadora,Enviado
+VTA0106,Router TP-Link,2026-03-15,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Efectivo,Coordinadora,Entregado
+VTA0106,Silla Gamer,2026-03-15,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Efectivo,Coordinadora,Entregado
+VTA0106,Impresora HP,2026-03-15,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Efectivo,Coordinadora,Entregado
+VTA0107,Monitor Samsung,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Efectivo,Servientrega,Pendiente
+VTA0107,Disco SSD 1TB,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,3,420.000,Efectivo,Servientrega,Pendiente
+VTA0107,Mouse Logitech,2026-01-21,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,3,80.000,Efectivo,Servientrega,Pendiente
+VTA0108,Mouse Logitech,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Efectivo,Coordinadora,Enviado
+VTA0108,Disco SSD 1TB,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Efectivo,Coordinadora,Enviado
+VTA0108,Laptop Lenovo,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,4,2.500.000,Efectivo,Coordinadora,Enviado
+VTA0109,Router TP-Link,2026-02-02,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,4,230.000,Efectivo,Interrapidísimo,Entregado
+VTA0109,Mouse Logitech,2026-02-02,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,2,80.000,Efectivo,Interrapidísimo,Entregado
+VTA0109,Disco SSD 1TB,2026-02-02,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Efectivo,Interrapidísimo,Entregado
+VTA0110,Mouse Logitech,2026-05-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,2,80.000,Nequi,Coordinadora,Pendiente
+VTA0110,Silla Gamer,2026-05-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Nequi,Coordinadora,Pendiente
+VTA0110,Disco SSD 1TB,2026-05-04,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Nequi,Coordinadora,Pendiente
+VTA0111,Monitor Samsung,2026-04-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Transferencia,Servientrega,Enviado
+VTA0111,Mouse Logitech,2026-04-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,5,80.000,Transferencia,Servientrega,Enviado
+VTA0111,Laptop Lenovo,2026-04-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,2,2.500.000,Transferencia,Servientrega,Enviado
+VTA0112,Monitor Samsung,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Efectivo,Servientrega,Pendiente
+VTA0112,Silla Gamer,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,2,700.000,Efectivo,Servientrega,Pendiente
+VTA0112,Mouse Logitech,2026-02-02,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Efectivo,Servientrega,Pendiente
+VTA0113,Router TP-Link,2026-02-10,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0113,Mouse Logitech,2026-02-10,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0113,Monitor Samsung,2026-02-10,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,5,950.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0114,Monitor Samsung,2026-04-28,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0114,Impresora HP,2026-04-28,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0114,Laptop Lenovo,2026-04-28,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0115,Silla Gamer,2026-01-06,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Muebles,4,700.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0115,Laptop Lenovo,2026-01-06,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0115,Router TP-Link,2026-01-06,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0116,Disco SSD 1TB,2026-01-29,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Efectivo,Servientrega,Entregado
+VTA0116,Monitor Samsung,2026-01-29,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Tecnología,1,950.000,Efectivo,Servientrega,Entregado
+VTA0116,Teclado Redragon,2026-01-29,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Efectivo,Servientrega,Entregado
+VTA0117,Silla Gamer,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Muebles,2,700.000,Nequi,Interrapidísimo,Pendiente
+VTA0117,Teclado Redragon,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Nequi,Interrapidísimo,Pendiente
+VTA0117,Monitor Samsung,2026-05-02,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,1,950.000,Nequi,Interrapidísimo,Pendiente
+VTA0118,Silla Gamer,2026-03-04,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Transferencia,Interrapidísimo,Entregado
+VTA0118,Teclado Redragon,2026-03-04,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Transferencia,Interrapidísimo,Entregado
+VTA0118,Mouse Logitech,2026-03-04,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Transferencia,Interrapidísimo,Entregado
+VTA0119,Impresora HP,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0119,Monitor Samsung,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0119,Mouse Logitech,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0120,Disco SSD 1TB,2026-04-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Nequi,Servientrega,Enviado
+VTA0120,Teclado Redragon,2026-04-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Nequi,Servientrega,Enviado
+VTA0120,Silla Gamer,2026-04-24,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Nequi,Servientrega,Enviado
+VTA0121,Router TP-Link,2026-02-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Redes,1,230.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0121,Mouse Logitech,2026-02-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0121,Silla Gamer,2026-02-21,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,4,700.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0122,Laptop Lenovo,2026-02-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0122,Router TP-Link,2026-02-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,3,230.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0122,Teclado Redragon,2026-02-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0123,Laptop Lenovo,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,2,2.500.000,Nequi,Interrapidísimo,Entregado
+VTA0123,Silla Gamer,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Nequi,Interrapidísimo,Entregado
+VTA0123,Mouse Logitech,2026-05-10,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,4,80.000,Nequi,Interrapidísimo,Entregado
+VTA0124,Silla Gamer,2026-05-16,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Efectivo,Interrapidísimo,Entregado
+VTA0124,Mouse Logitech,2026-05-16,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Efectivo,Interrapidísimo,Entregado
+VTA0124,Router TP-Link,2026-05-16,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Redes,4,230.000,Efectivo,Interrapidísimo,Entregado
+VTA0125,Mouse Logitech,2026-03-05,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Nequi,Coordinadora,Pendiente
+VTA0125,Monitor Samsung,2026-03-05,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,4,950.000,Nequi,Coordinadora,Pendiente
+VTA0125,Silla Gamer,2026-03-05,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Nequi,Coordinadora,Pendiente
+VTA0126,Router TP-Link,2026-05-30,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Nequi,Coordinadora,Pendiente
+VTA0126,Laptop Lenovo,2026-05-30,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Nequi,Coordinadora,Pendiente
+VTA0126,Disco SSD 1TB,2026-05-30,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Nequi,Coordinadora,Pendiente
+VTA0127,Teclado Redragon,2026-05-11,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,1,150.000,Nequi,Servientrega,Pendiente
+VTA0127,Silla Gamer,2026-05-11,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Nequi,Servientrega,Pendiente
+VTA0127,Laptop Lenovo,2026-05-11,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Nequi,Servientrega,Pendiente
+VTA0128,Teclado Redragon,2026-06-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Accesorios,5,150.000,Efectivo,Interrapidísimo,Entregado
+VTA0128,Router TP-Link,2026-06-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Efectivo,Interrapidísimo,Entregado
+VTA0128,Silla Gamer,2026-06-02,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Efectivo,Interrapidísimo,Entregado
+VTA0129,Silla Gamer,2026-03-18,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0129,Impresora HP,2026-03-18,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0129,Disco SSD 1TB,2026-03-18,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Almacenamiento,2,420.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0130,Router TP-Link,2026-02-04,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Nequi,Coordinadora,Pendiente
+VTA0130,Teclado Redragon,2026-02-04,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,4,150.000,Nequi,Coordinadora,Pendiente
+VTA0130,Impresora HP,2026-02-04,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Nequi,Coordinadora,Pendiente
+VTA0131,Teclado Redragon,2026-04-29,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Transferencia,Coordinadora,Enviado
+VTA0131,Laptop Lenovo,2026-04-29,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,5,2.500.000,Transferencia,Coordinadora,Enviado
+VTA0131,Disco SSD 1TB,2026-04-29,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Almacenamiento,2,420.000,Transferencia,Coordinadora,Enviado
+VTA0132,Impresora HP,2026-01-19,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,5,650.000,Efectivo,Interrapidísimo,Pendiente
+VTA0132,Router TP-Link,2026-01-19,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Efectivo,Interrapidísimo,Pendiente
+VTA0132,Monitor Samsung,2026-01-19,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Efectivo,Interrapidísimo,Pendiente
+VTA0133,Teclado Redragon,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,2,150.000,Nequi,Interrapidísimo,Pendiente
+VTA0133,Monitor Samsung,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,1,950.000,Nequi,Interrapidísimo,Pendiente
+VTA0133,Laptop Lenovo,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Nequi,Interrapidísimo,Pendiente
+VTA0134,Impresora HP,2026-03-06,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0134,Teclado Redragon,2026-03-06,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0134,Router TP-Link,2026-03-06,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0135,Mouse Logitech,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,3,80.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0135,Laptop Lenovo,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0135,Impresora HP,2026-03-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0136,Disco SSD 1TB,2026-01-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,5,420.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0136,Impresora HP,2026-01-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Oficina,2,650.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0136,Teclado Redragon,2026-01-12,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0137,Disco SSD 1TB,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Transferencia,Interrapidísimo,Pendiente
+VTA0137,Laptop Lenovo,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Transferencia,Interrapidísimo,Pendiente
+VTA0137,Impresora HP,2026-06-24,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,3,650.000,Transferencia,Interrapidísimo,Pendiente
+VTA0138,Laptop Lenovo,2026-06-08,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,2,2.500.000,Efectivo,Interrapidísimo,Pendiente
+VTA0138,Silla Gamer,2026-06-08,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Efectivo,Interrapidísimo,Pendiente
+VTA0138,Disco SSD 1TB,2026-06-08,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Efectivo,Interrapidísimo,Pendiente
+VTA0139,Mouse Logitech,2026-01-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,3,80.000,Efectivo,Interrapidísimo,Enviado
+VTA0139,Impresora HP,2026-01-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Efectivo,Interrapidísimo,Enviado
+VTA0139,Disco SSD 1TB,2026-01-21,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,2,420.000,Efectivo,Interrapidísimo,Enviado
+VTA0140,Monitor Samsung,2026-05-13,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Nequi,Coordinadora,Entregado
+VTA0140,Silla Gamer,2026-05-13,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Muebles,3,700.000,Nequi,Coordinadora,Entregado
+VTA0140,Teclado Redragon,2026-05-13,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Nequi,Coordinadora,Entregado
+VTA0141,Monitor Samsung,2026-06-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,5,950.000,Transferencia,Servientrega,Entregado
+VTA0141,Teclado Redragon,2026-06-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,4,150.000,Transferencia,Servientrega,Entregado
+VTA0141,Disco SSD 1TB,2026-06-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,2,420.000,Transferencia,Servientrega,Entregado
+VTA0142,Monitor Samsung,2026-01-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,4,950.000,Nequi,Coordinadora,Pendiente
+VTA0142,Teclado Redragon,2026-01-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Nequi,Coordinadora,Pendiente
+VTA0142,Mouse Logitech,2026-01-18,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Nequi,Coordinadora,Pendiente
+VTA0143,Router TP-Link,2026-01-12,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Transferencia,Interrapidísimo,Pendiente
+VTA0143,Silla Gamer,2026-01-12,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Transferencia,Interrapidísimo,Pendiente
+VTA0143,Teclado Redragon,2026-01-12,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,5,150.000,Transferencia,Interrapidísimo,Pendiente
+VTA0144,Teclado Redragon,2026-01-09,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0144,Disco SSD 1TB,2026-01-09,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,3,420.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0144,Mouse Logitech,2026-01-09,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Tarjeta Crédito,Coordinadora,Enviado
+VTA0145,Impresora HP,2026-04-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,3,650.000,Nequi,Interrapidísimo,Pendiente
+VTA0145,Router TP-Link,2026-04-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,2,230.000,Nequi,Interrapidísimo,Pendiente
+VTA0145,Laptop Lenovo,2026-04-23,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,2,2.500.000,Nequi,Interrapidísimo,Pendiente
+VTA0146,Silla Gamer,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,3,700.000,Transferencia,Coordinadora,Entregado
+VTA0146,Router TP-Link,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Transferencia,Coordinadora,Entregado
+VTA0146,Mouse Logitech,2026-04-16,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,4,80.000,Transferencia,Coordinadora,Entregado
+VTA0147,Teclado Redragon,2026-03-20,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,5,150.000,Nequi,Interrapidísimo,Entregado
+VTA0147,Impresora HP,2026-03-20,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Nequi,Interrapidísimo,Entregado
+VTA0147,Monitor Samsung,2026-03-20,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Nequi,Interrapidísimo,Entregado
+VTA0148,Teclado Redragon,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Transferencia,Coordinadora,Entregado
+VTA0148,Laptop Lenovo,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,1,2.500.000,Transferencia,Coordinadora,Entregado
+VTA0148,Monitor Samsung,2026-03-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,3,950.000,Transferencia,Coordinadora,Entregado
+VTA0149,Monitor Samsung,2026-01-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,3,950.000,Efectivo,Servientrega,Entregado
+VTA0149,Disco SSD 1TB,2026-01-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Efectivo,Servientrega,Entregado
+VTA0149,Teclado Redragon,2026-01-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Efectivo,Servientrega,Entregado
+VTA0150,Teclado Redragon,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,4,150.000,Efectivo,Interrapidísimo,Enviado
+VTA0150,Mouse Logitech,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,4,80.000,Efectivo,Interrapidísimo,Enviado
+VTA0150,Monitor Samsung,2026-03-04,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,2,950.000,Efectivo,Interrapidísimo,Enviado
+VTA0151,Monitor Samsung,2026-06-29,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Tecnología,4,950.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0151,Disco SSD 1TB,2026-06-29,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Almacenamiento,5,420.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0151,Impresora HP,2026-06-29,C001,Carlos Pérez,3001234567,Bogotá,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0152,Laptop Lenovo,2026-03-23,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,4,2.500.000,Efectivo,Servientrega,Entregado
+VTA0152,Monitor Samsung,2026-03-23,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,4,950.000,Efectivo,Servientrega,Entregado
+VTA0152,Teclado Redragon,2026-03-23,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,1,150.000,Efectivo,Servientrega,Entregado
+VTA0153,Impresora HP,2026-01-27,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0153,Mouse Logitech,2026-01-27,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0153,Silla Gamer,2026-01-27,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Muebles,2,700.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0154,Impresora HP,2026-01-06,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Oficina,4,650.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0154,Router TP-Link,2026-01-06,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0154,Monitor Samsung,2026-01-06,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Tecnología,2,950.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0155,Mouse Logitech,2026-06-26,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Nequi,Coordinadora,Entregado
+VTA0155,Router TP-Link,2026-06-26,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,1,230.000,Nequi,Coordinadora,Entregado
+VTA0155,Teclado Redragon,2026-06-26,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Accesorios,2,150.000,Nequi,Coordinadora,Entregado
+VTA0156,Teclado Redragon,2026-06-13,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0156,Monitor Samsung,2026-06-13,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,2,950.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0156,Mouse Logitech,2026-06-13,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0157,Router TP-Link,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,3,230.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0157,Laptop Lenovo,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0157,Teclado Redragon,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,4,150.000,Tarjeta Crédito,Interrapidísimo,Pendiente
+VTA0158,Laptop Lenovo,2026-04-21,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,3,2.500.000,Nequi,Servientrega,Pendiente
+VTA0158,Disco SSD 1TB,2026-04-21,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Almacenamiento,2,420.000,Nequi,Servientrega,Pendiente
+VTA0158,Impresora HP,2026-04-21,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Oficina,4,650.000,Nequi,Servientrega,Pendiente
+VTA0159,Disco SSD 1TB,2026-05-08,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Nequi,Interrapidísimo,Entregado
+VTA0159,Teclado Redragon,2026-05-08,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,2,150.000,Nequi,Interrapidísimo,Entregado
+VTA0159,Laptop Lenovo,2026-05-08,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,5,2.500.000,Nequi,Interrapidísimo,Entregado
+VTA0160,Laptop Lenovo,2026-06-03,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Efectivo,Servientrega,Entregado
+VTA0160,Mouse Logitech,2026-06-03,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Efectivo,Servientrega,Entregado
+VTA0160,Router TP-Link,2026-06-03,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Redes,3,230.000,Efectivo,Servientrega,Entregado
+VTA0161,Router TP-Link,2026-05-30,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,4,230.000,Nequi,Servientrega,Enviado
+VTA0161,Laptop Lenovo,2026-05-30,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,4,2.500.000,Nequi,Servientrega,Enviado
+VTA0161,Monitor Samsung,2026-05-30,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Tecnología,1,950.000,Nequi,Servientrega,Enviado
+VTA0162,Teclado Redragon,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0162,Mouse Logitech,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0162,Monitor Samsung,2026-05-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,5,950.000,Tarjeta Crédito,Servientrega,Pendiente
+VTA0163,Teclado Redragon,2026-05-01,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,4,150.000,Efectivo,Servientrega,Pendiente
+VTA0163,Mouse Logitech,2026-05-01,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,2,80.000,Efectivo,Servientrega,Pendiente
+VTA0163,Router TP-Link,2026-05-01,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Redes,2,230.000,Efectivo,Servientrega,Pendiente
+VTA0164,Disco SSD 1TB,2026-03-29,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Nequi,Servientrega,Enviado
+VTA0164,Impresora HP,2026-03-29,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Nequi,Servientrega,Enviado
+VTA0164,Silla Gamer,2026-03-29,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Nequi,Servientrega,Enviado
+VTA0165,Disco SSD 1TB,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Efectivo,Servientrega,Enviado
+VTA0165,Laptop Lenovo,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Efectivo,Servientrega,Enviado
+VTA0165,Router TP-Link,2026-01-04,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Redes,5,230.000,Efectivo,Servientrega,Enviado
+VTA0166,Router TP-Link,2026-06-19,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Redes,2,230.000,Efectivo,Coordinadora,Entregado
+VTA0166,Silla Gamer,2026-06-19,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Efectivo,Coordinadora,Entregado
+VTA0166,Impresora HP,2026-06-19,C002,Ana Gómez,3019876543,Medellín,V002,Miguel Castro,Sucursal Centro,Oficina,3,650.000,Efectivo,Coordinadora,Entregado
+VTA0167,Router TP-Link,2026-06-01,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Efectivo,Interrapidísimo,Enviado
+VTA0167,Disco SSD 1TB,2026-06-01,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Almacenamiento,2,420.000,Efectivo,Interrapidísimo,Enviado
+VTA0167,Mouse Logitech,2026-06-01,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,5,80.000,Efectivo,Interrapidísimo,Enviado
+VTA0168,Disco SSD 1TB,2026-03-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Nequi,Interrapidísimo,Enviado
+VTA0168,Router TP-Link,2026-03-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Redes,2,230.000,Nequi,Interrapidísimo,Enviado
+VTA0168,Teclado Redragon,2026-03-31,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Nequi,Interrapidísimo,Enviado
+VTA0169,Disco SSD 1TB,2026-02-17,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Almacenamiento,2,420.000,Efectivo,Servientrega,Pendiente
+VTA0169,Laptop Lenovo,2026-02-17,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Efectivo,Servientrega,Pendiente
+VTA0169,Teclado Redragon,2026-02-17,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,5,150.000,Efectivo,Servientrega,Pendiente
+VTA0170,Disco SSD 1TB,2026-05-18,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Transferencia,Servientrega,Pendiente
+VTA0170,Teclado Redragon,2026-05-18,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,3,150.000,Transferencia,Servientrega,Pendiente
+VTA0170,Monitor Samsung,2026-05-18,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,2,950.000,Transferencia,Servientrega,Pendiente
+VTA0171,Silla Gamer,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Muebles,2,700.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0171,Impresora HP,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Oficina,1,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0171,Teclado Redragon,2026-02-08,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,1,150.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0172,Teclado Redragon,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0172,Impresora HP,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0172,Silla Gamer,2026-05-03,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0173,Impresora HP,2026-04-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Oficina,2,650.000,Transferencia,Interrapidísimo,Pendiente
+VTA0173,Disco SSD 1TB,2026-04-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Almacenamiento,5,420.000,Transferencia,Interrapidísimo,Pendiente
+VTA0173,Laptop Lenovo,2026-04-20,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,2,2.500.000,Transferencia,Interrapidísimo,Pendiente
+VTA0174,Teclado Redragon,2026-01-03,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Nequi,Servientrega,Enviado
+VTA0174,Mouse Logitech,2026-01-03,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Nequi,Servientrega,Enviado
+VTA0174,Impresora HP,2026-01-03,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,3,650.000,Nequi,Servientrega,Enviado
+VTA0175,Disco SSD 1TB,2026-03-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Nequi,Coordinadora,Entregado
+VTA0175,Silla Gamer,2026-03-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Muebles,5,700.000,Nequi,Coordinadora,Entregado
+VTA0175,Laptop Lenovo,2026-03-06,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,3,2.500.000,Nequi,Coordinadora,Entregado
+VTA0176,Router TP-Link,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Redes,1,230.000,Nequi,Interrapidísimo,Pendiente
+VTA0176,Disco SSD 1TB,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Nequi,Interrapidísimo,Pendiente
+VTA0176,Impresora HP,2026-03-14,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Oficina,2,650.000,Nequi,Interrapidísimo,Pendiente
+VTA0177,Monitor Samsung,2026-05-04,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,4,950.000,Nequi,Coordinadora,Enviado
+VTA0177,Mouse Logitech,2026-05-04,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,3,80.000,Nequi,Coordinadora,Enviado
+VTA0177,Laptop Lenovo,2026-05-04,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Nequi,Coordinadora,Enviado
+VTA0178,Mouse Logitech,2026-02-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Accesorios,5,80.000,Transferencia,Servientrega,Enviado
+VTA0178,Laptop Lenovo,2026-02-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Tecnología,2,2.500.000,Transferencia,Servientrega,Enviado
+VTA0178,Impresora HP,2026-02-25,C001,Carlos Pérez,3001234567,Bogotá,V003,Paula Herrera,Sucursal Sur,Oficina,5,650.000,Transferencia,Servientrega,Enviado
+VTA0179,Teclado Redragon,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Accesorios,5,150.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0179,Impresora HP,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0179,Monitor Samsung,2026-06-26,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Tarjeta Crédito,Coordinadora,Pendiente
+VTA0180,Teclado Redragon,2026-05-28,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Accesorios,5,150.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0180,Monitor Samsung,2026-05-28,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0180,Disco SSD 1TB,2026-05-28,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Almacenamiento,4,420.000,Tarjeta Crédito,Servientrega,Enviado
+VTA0181,Router TP-Link,2026-04-12,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Redes,5,230.000,Transferencia,Servientrega,Enviado
+VTA0181,Mouse Logitech,2026-04-12,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Accesorios,4,80.000,Transferencia,Servientrega,Enviado
+VTA0181,Monitor Samsung,2026-04-12,C002,Ana Gómez,3019876543,Medellín,V003,Paula Herrera,Sucursal Sur,Tecnología,4,950.000,Transferencia,Servientrega,Enviado
+VTA0182,Impresora HP,2026-01-09,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Transferencia,Coordinadora,Pendiente
+VTA0182,Silla Gamer,2026-01-09,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,5,700.000,Transferencia,Coordinadora,Pendiente
+VTA0182,Disco SSD 1TB,2026-01-09,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Transferencia,Coordinadora,Pendiente
+VTA0183,Impresora HP,2026-06-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Oficina,1,650.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0183,Router TP-Link,2026-06-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0183,Silla Gamer,2026-06-20,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Muebles,4,700.000,Tarjeta Crédito,Interrapidísimo,Entregado
+VTA0184,Impresora HP,2026-06-14,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Oficina,2,650.000,Efectivo,Coordinadora,Enviado
+VTA0184,Router TP-Link,2026-06-14,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Redes,5,230.000,Efectivo,Coordinadora,Enviado
+VTA0184,Silla Gamer,2026-06-14,C004,Sofía Ramírez,3037891234,Barranquilla,V002,Miguel Castro,Sucursal Centro,Muebles,2,700.000,Efectivo,Coordinadora,Enviado
+VTA0185,Disco SSD 1TB,2026-05-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Almacenamiento,4,420.000,Transferencia,Interrapidísimo,Enviado
+VTA0185,Mouse Logitech,2026-05-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Transferencia,Interrapidísimo,Enviado
+VTA0185,Router TP-Link,2026-05-14,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Redes,3,230.000,Transferencia,Interrapidísimo,Enviado
+VTA0186,Laptop Lenovo,2026-01-28,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Nequi,Servientrega,Entregado
+VTA0186,Silla Gamer,2026-01-28,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Muebles,5,700.000,Nequi,Servientrega,Entregado
+VTA0186,Mouse Logitech,2026-01-28,C004,Sofía Ramírez,3037891234,Barranquilla,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Nequi,Servientrega,Entregado
+VTA0187,Monitor Samsung,2026-04-22,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Tecnología,5,950.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0187,Disco SSD 1TB,2026-04-22,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Almacenamiento,1,420.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0187,Impresora HP,2026-04-22,C005,David Torres,3041112233,Bucaramanga,V002,Miguel Castro,Sucursal Centro,Oficina,1,650.000,Tarjeta Crédito,Interrapidísimo,Enviado
+VTA0188,Disco SSD 1TB,2026-04-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Almacenamiento,4,420.000,Transferencia,Servientrega,Enviado
+VTA0188,Impresora HP,2026-04-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Transferencia,Servientrega,Enviado
+VTA0188,Laptop Lenovo,2026-04-25,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,5,2.500.000,Transferencia,Servientrega,Enviado
+VTA0189,Monitor Samsung,2026-04-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,4,950.000,Transferencia,Interrapidísimo,Pendiente
+VTA0189,Mouse Logitech,2026-04-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,5,80.000,Transferencia,Interrapidísimo,Pendiente
+VTA0189,Silla Gamer,2026-04-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Muebles,2,700.000,Transferencia,Interrapidísimo,Pendiente
+VTA0190,Impresora HP,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Oficina,1,650.000,Nequi,Coordinadora,Pendiente
+VTA0190,Monitor Samsung,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,5,950.000,Nequi,Coordinadora,Pendiente
+VTA0190,Laptop Lenovo,2026-05-20,C004,Sofía Ramírez,3037891234,Barranquilla,V003,Paula Herrera,Sucursal Sur,Tecnología,4,2.500.000,Nequi,Coordinadora,Pendiente
+VTA0191,Mouse Logitech,2026-05-30,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Accesorios,5,80.000,Efectivo,Coordinadora,Entregado
+VTA0191,Router TP-Link,2026-05-30,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Redes,5,230.000,Efectivo,Coordinadora,Entregado
+VTA0191,Disco SSD 1TB,2026-05-30,C005,David Torres,3041112233,Bucaramanga,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Efectivo,Coordinadora,Entregado
+VTA0192,Impresora HP,2026-01-01,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,4,650.000,Efectivo,Coordinadora,Entregado
+VTA0192,Silla Gamer,2026-01-01,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,1,700.000,Efectivo,Coordinadora,Entregado
+VTA0192,Disco SSD 1TB,2026-01-01,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Almacenamiento,5,420.000,Efectivo,Coordinadora,Entregado
+VTA0193,Laptop Lenovo,2026-01-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,1,2.500.000,Nequi,Interrapidísimo,Enviado
+VTA0193,Teclado Redragon,2026-01-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Nequi,Interrapidísimo,Enviado
+VTA0193,Disco SSD 1TB,2026-01-13,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Almacenamiento,1,420.000,Nequi,Interrapidísimo,Enviado
+VTA0194,Disco SSD 1TB,2026-06-26,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Almacenamiento,1,420.000,Transferencia,Coordinadora,Enviado
+VTA0194,Teclado Redragon,2026-06-26,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Accesorios,5,150.000,Transferencia,Coordinadora,Enviado
+VTA0194,Monitor Samsung,2026-06-26,C003,Luis Martínez,3024567890,Cali,V003,Paula Herrera,Sucursal Sur,Tecnología,3,950.000,Transferencia,Coordinadora,Enviado
+VTA0195,Impresora HP,2026-04-09,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Oficina,5,650.000,Transferencia,Coordinadora,Enviado
+VTA0195,Mouse Logitech,2026-04-09,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,1,80.000,Transferencia,Coordinadora,Enviado
+VTA0195,Teclado Redragon,2026-04-09,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Accesorios,3,150.000,Transferencia,Coordinadora,Enviado
+VTA0196,Mouse Logitech,2026-01-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Accesorios,2,80.000,Efectivo,Servientrega,Enviado
+VTA0196,Laptop Lenovo,2026-01-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Tecnología,3,2.500.000,Efectivo,Servientrega,Enviado
+VTA0196,Router TP-Link,2026-01-05,C001,Carlos Pérez,3001234567,Bogotá,V002,Miguel Castro,Sucursal Centro,Redes,4,230.000,Efectivo,Servientrega,Enviado
+VTA0197,Router TP-Link,2026-05-28,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Redes,1,230.000,Nequi,Interrapidísimo,Enviado
+VTA0197,Silla Gamer,2026-05-28,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Muebles,4,700.000,Nequi,Interrapidísimo,Enviado
+VTA0197,Impresora HP,2026-05-28,C002,Ana Gómez,3019876543,Medellín,V001,Laura Díaz,Sucursal Norte,Oficina,2,650.000,Nequi,Interrapidísimo,Enviado
+VTA0198,Laptop Lenovo,2026-02-19,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,1,2.500.000,Nequi,Coordinadora,Enviado
+VTA0198,Monitor Samsung,2026-02-19,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Tecnología,1,950.000,Nequi,Coordinadora,Enviado
+VTA0198,Mouse Logitech,2026-02-19,C005,David Torres,3041112233,Bucaramanga,V003,Paula Herrera,Sucursal Sur,Accesorios,2,80.000,Nequi,Coordinadora,Enviado
+VTA0199,Impresora HP,2026-06-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Oficina,5,650.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0199,Silla Gamer,2026-06-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Muebles,3,700.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0199,Teclado Redragon,2026-06-14,C003,Luis Martínez,3024567890,Cali,V002,Miguel Castro,Sucursal Centro,Accesorios,3,150.000,Tarjeta Crédito,Servientrega,Entregado
+VTA0200,Mouse Logitech,2026-03-05,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Accesorios,3,80.000,Efectivo,Coordinadora,Enviado
+VTA0200,Laptop Lenovo,2026-03-05,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Tecnología,4,2.500.000,Efectivo,Coordinadora,Enviado
+VTA0200,Router TP-Link,2026-03-05,C003,Luis Martínez,3024567890,Cali,V001,Laura Díaz,Sucursal Norte,Redes,4,230.000,Efectivo,Coordinadora,Enviado
