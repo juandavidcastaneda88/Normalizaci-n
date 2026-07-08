@@ -1,0 +1,602 @@
+CLIENTES,,,,,VENTAS — sin dependencias transitivas (solo claves foráneas),,,,,,,,DETALLE_VENTAS,,
+Cliente_ID,Nombre_Cliente,Telefono_Cliente,Ciudad_Cliente,,ID_Venta,Fecha_Venta,Cliente_ID,Vendedor_ID,Metodo_Pago,Transportadora,Estado_Envio,,ID_Venta,ID_Producto,Cantidad
+C001,Carlos Pérez,3001234567,Bogotá,,VTA0001,2026-02-02,C002,V002,Transferencia,Servientrega,Pendiente,,VTA0001,P001,1
+C002,Ana Gómez,3019876543,Medellín,,VTA0002,2026-05-25,C004,V001,Tarjeta Crédito,Coordinadora,Entregado,,VTA0001,P002,1
+C003,Luis Martínez,3024567890,Cali,,VTA0003,2026-05-16,C003,V002,Transferencia,Coordinadora,Pendiente,,VTA0001,P003,4
+C004,Sofía Ramírez,3037891234,Barranquilla,,VTA0004,2026-06-06,C005,V003,Transferencia,Coordinadora,Entregado,,VTA0002,P002,1
+C005,David Torres,3041112233,Bucaramanga,,VTA0005,2026-01-31,C003,V001,Nequi,Coordinadora,Pendiente,,VTA0002,P004,2
+,,,,,VTA0006,2026-01-05,C003,V003,Transferencia,Servientrega,Enviado,,VTA0002,P005,5
+VENDEDORES,,,,,VTA0007,2026-03-15,C001,V003,Nequi,Interrapidísimo,Enviado,,VTA0003,P002,4
+Vendedor_ID,Nombre_Vendedor,Sucursal,,,VTA0008,2026-05-01,C004,V003,Nequi,Coordinadora,Entregado,,VTA0003,P006,3
+V001,Laura Díaz,Sucursal Norte,,,VTA0009,2026-06-12,C001,V003,Nequi,Coordinadora,Pendiente,,VTA0003,P007,4
+V002,Miguel Castro,Sucursal Centro,,,VTA0010,2026-05-04,C004,V001,Transferencia,Coordinadora,Enviado,,VTA0004,P003,3
+V003,Paula Herrera,Sucursal Sur,,,VTA0011,2026-05-21,C005,V003,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0004,P004,2
+,,,,,VTA0012,2026-04-30,C004,V001,Efectivo,Interrapidísimo,Enviado,,VTA0004,P008,5
+,,,,,VTA0013,2026-06-30,C001,V003,Tarjeta Crédito,Coordinadora,Enviado,,VTA0005,P003,5
+PRODUCTOS,,,,,VTA0014,2026-02-18,C005,V003,Efectivo,Interrapidísimo,Entregado,,VTA0005,P006,5
+ID_Producto,Nombre_Producto,Categoria,Precio_Unitario,,VTA0015,2026-06-13,C005,V001,Nequi,Interrapidísimo,Enviado,,VTA0005,P007,2
+P001,Teclado Redragon,Accesorios,150.000,,VTA0016,2026-06-27,C004,V003,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0006,P008,4
+P002,Impresora HP,Oficina,650.000,,VTA0017,2026-01-21,C004,V001,Transferencia,Interrapidísimo,Entregado,,VTA0006,P004,4
+P003,Router TP-Link,Redes,230.000,,VTA0018,2026-03-03,C003,V003,Nequi,Servientrega,Pendiente,,VTA0006,P001,3
+P004,Disco SSD 1TB,Almacenamiento,420.000,,VTA0019,2026-03-14,C002,V002,Tarjeta Crédito,Coordinadora,Enviado,,VTA0007,P003,2
+P005,Monitor Samsung,Tecnología,950.000,,VTA0020,2026-05-30,C003,V002,Nequi,Coordinadora,Pendiente,,VTA0007,P001,4
+P006,Laptop Lenovo,Tecnología,2.500.000,,VTA0021,2026-03-27,C005,V001,Efectivo,Coordinadora,Pendiente,,VTA0007,P005,3
+P007,Mouse Logitech,Accesorios,80.000,,VTA0022,2026-01-16,C002,V003,Tarjeta Crédito,Interrapidísimo,Entregado,,VTA0008,P005,1
+P008,Silla Gamer,Muebles,700.000,,VTA0023,2026-05-20,C004,V001,Efectivo,Interrapidísimo,Enviado,,VTA0008,P007,3
+,,,,,VTA0024,2026-01-04,C005,V001,Transferencia,Servientrega,Entregado,,VTA0008,P008,3
+,,,,,VTA0025,2026-04-17,C005,V002,Transferencia,Coordinadora,Pendiente,,VTA0009,P003,3
+,,,,,VTA0026,2026-06-20,C002,V002,Nequi,Interrapidísimo,Enviado,,VTA0009,P001,3
+,,,,,VTA0027,2026-04-11,C002,V003,Transferencia,Interrapidísimo,Enviado,,VTA0009,P005,3
+,,,,,VTA0028,2026-04-06,C005,V002,Nequi,Coordinadora,Enviado,,VTA0010,P003,2
+,,,,,VTA0029,2026-04-14,C005,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0010,P006,1
+,,,,,VTA0030,2026-04-13,C002,V002,Nequi,Interrapidísimo,Entregado,,VTA0010,P004,3
+,,,,,VTA0031,2026-02-04,C003,V003,Nequi,Coordinadora,Enviado,,VTA0011,P008,5
+,,,,,VTA0032,2026-01-07,C001,V003,Transferencia,Servientrega,Pendiente,,VTA0011,P005,4
+,,,,,VTA0033,2026-05-29,C004,V003,Tarjeta Crédito,Servientrega,Enviado,,VTA0011,P001,3
+,,,,,VTA0034,2026-05-10,C002,V001,Tarjeta Crédito,Coordinadora,Entregado,,VTA0012,P002,3
+,,,,,VTA0035,2026-03-23,C004,V001,Transferencia,Interrapidísimo,Enviado,,VTA0012,P003,1
+,,,,,VTA0036,2026-02-20,C002,V001,Transferencia,Servientrega,Entregado,,VTA0012,P008,4
+,,,,,VTA0037,2026-06-16,C004,V002,Nequi,Interrapidísimo,Enviado,,VTA0013,P005,4
+,,,,,VTA0038,2026-05-19,C001,V003,Transferencia,Interrapidísimo,Pendiente,,VTA0013,P003,4
+,,,,,VTA0039,2026-04-12,C005,V002,Transferencia,Servientrega,Entregado,,VTA0013,P008,4
+,,,,,VTA0040,2026-01-14,C003,V002,Transferencia,Servientrega,Entregado,,VTA0014,P002,2
+,,,,,VTA0041,2026-06-16,C003,V003,Transferencia,Servientrega,Enviado,,VTA0014,P007,4
+,,,,,VTA0042,2026-05-07,C002,V001,Nequi,Interrapidísimo,Pendiente,,VTA0014,P004,1
+,,,,,VTA0043,2026-06-06,C002,V002,Efectivo,Coordinadora,Pendiente,,VTA0015,P006,3
+,,,,,VTA0044,2026-06-13,C004,V002,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0015,P001,1
+,,,,,VTA0045,2026-04-10,C001,V002,Transferencia,Interrapidísimo,Enviado,,VTA0015,P007,3
+,,,,,VTA0046,2026-04-12,C001,V002,Nequi,Servientrega,Entregado,,VTA0016,P002,3
+,,,,,VTA0047,2026-05-15,C001,V003,Nequi,Servientrega,Pendiente,,VTA0016,P005,1
+,,,,,VTA0048,2026-01-14,C003,V003,Efectivo,Servientrega,Enviado,,VTA0016,P007,3
+,,,,,VTA0049,2026-02-07,C005,V001,Nequi,Servientrega,Enviado,,VTA0017,P008,5
+,,,,,VTA0050,2026-05-03,C005,V002,Transferencia,Coordinadora,Enviado,,VTA0017,P002,1
+,,,,,VTA0051,2026-01-16,C005,V002,Tarjeta Crédito,Coordinadora,Enviado,,VTA0017,P004,4
+,,,,,VTA0052,2026-04-10,C001,V001,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0018,P008,1
+,,,,,VTA0053,2026-05-01,C005,V001,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0018,P007,4
+,,,,,VTA0054,2026-05-16,C004,V003,Nequi,Coordinadora,Enviado,,VTA0018,P004,1
+,,,,,VTA0055,2026-02-08,C005,V001,Nequi,Servientrega,Enviado,,VTA0019,P004,1
+,,,,,VTA0056,2026-06-11,C001,V002,Transferencia,Interrapidísimo,Entregado,,VTA0019,P008,2
+,,,,,VTA0057,2026-06-23,C001,V001,Nequi,Interrapidísimo,Enviado,,VTA0019,P001,2
+,,,,,VTA0058,2026-06-15,C003,V003,Nequi,Interrapidísimo,Enviado,,VTA0020,P002,4
+,,,,,VTA0059,2026-01-24,C003,V002,Tarjeta Crédito,Servientrega,Pendiente,,VTA0020,P004,1
+,,,,,VTA0060,2026-05-09,C003,V001,Transferencia,Coordinadora,Entregado,,VTA0020,P005,5
+,,,,,VTA0061,2026-01-13,C002,V002,Nequi,Coordinadora,Enviado,,VTA0021,P003,1
+,,,,,VTA0062,2026-03-21,C002,V002,Nequi,Interrapidísimo,Enviado,,VTA0021,P004,5
+,,,,,VTA0063,2026-02-25,C004,V002,Efectivo,Interrapidísimo,Pendiente,,VTA0021,P001,3
+,,,,,VTA0064,2026-03-03,C005,V002,Efectivo,Servientrega,Entregado,,VTA0022,P004,3
+,,,,,VTA0065,2026-03-03,C004,V003,Nequi,Coordinadora,Entregado,,VTA0022,P007,2
+,,,,,VTA0066,2026-06-14,C005,V002,Efectivo,Servientrega,Enviado,,VTA0022,P002,5
+,,,,,VTA0067,2026-05-02,C004,V001,Transferencia,Servientrega,Enviado,,VTA0023,P003,3
+,,,,,VTA0068,2026-01-07,C004,V003,Efectivo,Interrapidísimo,Pendiente,,VTA0023,P001,4
+,,,,,VTA0069,2026-05-19,C004,V003,Transferencia,Servientrega,Pendiente,,VTA0023,P002,1
+,,,,,VTA0070,2026-01-09,C001,V001,Tarjeta Crédito,Interrapidísimo,Entregado,,VTA0024,P006,3
+,,,,,VTA0071,2026-04-08,C003,V002,Transferencia,Coordinadora,Enviado,,VTA0024,P004,4
+,,,,,VTA0072,2026-04-22,C003,V002,Nequi,Interrapidísimo,Pendiente,,VTA0024,P005,4
+,,,,,VTA0073,2026-04-24,C005,V002,Tarjeta Crédito,Servientrega,Enviado,,VTA0025,P007,4
+,,,,,VTA0074,2026-02-28,C001,V001,Transferencia,Servientrega,Pendiente,,VTA0025,P005,4
+,,,,,VTA0075,2026-05-08,C001,V001,Nequi,Servientrega,Enviado,,VTA0025,P003,2
+,,,,,VTA0076,2026-02-06,C001,V003,Tarjeta Crédito,Servientrega,Pendiente,,VTA0026,P004,5
+,,,,,VTA0077,2026-03-05,C001,V002,Tarjeta Crédito,Servientrega,Pendiente,,VTA0026,P006,2
+,,,,,VTA0078,2026-03-04,C001,V001,Transferencia,Interrapidísimo,Pendiente,,VTA0026,P001,5
+,,,,,VTA0079,2026-06-25,C005,V003,Transferencia,Servientrega,Entregado,,VTA0027,P001,2
+,,,,,VTA0080,2026-03-21,C002,V002,Nequi,Interrapidísimo,Entregado,,VTA0027,P008,4
+,,,,,VTA0081,2026-01-29,C004,V001,Efectivo,Coordinadora,Pendiente,,VTA0027,P002,4
+,,,,,VTA0082,2026-02-24,C004,V002,Transferencia,Interrapidísimo,Enviado,,VTA0028,P002,3
+,,,,,VTA0083,2026-04-16,C003,V001,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0028,P008,1
+,,,,,VTA0084,2026-01-31,C001,V001,Transferencia,Servientrega,Pendiente,,VTA0028,P007,4
+,,,,,VTA0085,2026-03-20,C004,V002,Transferencia,Coordinadora,Pendiente,,VTA0029,P005,4
+,,,,,VTA0086,2026-05-26,C001,V002,Efectivo,Servientrega,Enviado,,VTA0029,P007,1
+,,,,,VTA0087,2026-01-29,C004,V003,Efectivo,Interrapidísimo,Pendiente,,VTA0029,P001,2
+,,,,,VTA0088,2026-05-22,C001,V001,Efectivo,Interrapidísimo,Pendiente,,VTA0030,P008,1
+,,,,,VTA0089,2026-03-02,C001,V001,Efectivo,Servientrega,Pendiente,,VTA0030,P003,1
+,,,,,VTA0090,2026-06-10,C005,V001,Nequi,Interrapidísimo,Enviado,,VTA0030,P006,1
+,,,,,VTA0091,2026-01-02,C003,V001,Nequi,Servientrega,Pendiente,,VTA0031,P008,1
+,,,,,VTA0092,2026-06-14,C005,V002,Efectivo,Coordinadora,Enviado,,VTA0031,P004,3
+,,,,,VTA0093,2026-01-29,C001,V002,Nequi,Coordinadora,Pendiente,,VTA0031,P002,5
+,,,,,VTA0094,2026-06-21,C003,V002,Efectivo,Interrapidísimo,Enviado,,VTA0032,P004,5
+,,,,,VTA0095,2026-05-19,C001,V003,Tarjeta Crédito,Interrapidísimo,Pendiente,,VTA0032,P003,1
+,,,,,VTA0096,2026-01-23,C001,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0032,P005,2
+,,,,,VTA0097,2026-03-22,C004,V003,Efectivo,Interrapidísimo,Pendiente,,VTA0033,P006,4
+,,,,,VTA0098,2026-02-12,C005,V001,Efectivo,Interrapidísimo,Entregado,,VTA0033,P003,5
+,,,,,VTA0099,2026-04-06,C005,V002,Tarjeta Crédito,Coordinadora,Entregado,,VTA0033,P008,5
+,,,,,VTA0100,2026-04-16,C004,V002,Tarjeta Crédito,Servientrega,Enviado,,VTA0034,P008,3
+,,,,,VTA0101,2026-02-12,C005,V002,Nequi,Servientrega,Pendiente,,VTA0034,P005,3
+,,,,,VTA0102,2026-02-20,C003,V002,Nequi,Coordinadora,Entregado,,VTA0034,P006,3
+,,,,,VTA0103,2026-03-11,C005,V003,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0035,P003,4
+,,,,,VTA0104,2026-01-24,C003,V002,Tarjeta Crédito,Coordinadora,Entregado,,VTA0035,P008,5
+,,,,,VTA0105,2026-02-08,C005,V001,Efectivo,Coordinadora,Enviado,,VTA0035,P007,1
+,,,,,VTA0106,2026-03-15,C004,V002,Efectivo,Coordinadora,Entregado,,VTA0036,P006,1
+,,,,,VTA0107,2026-01-21,C004,V003,Efectivo,Servientrega,Pendiente,,VTA0036,P008,2
+,,,,,VTA0108,2026-06-24,C005,V001,Efectivo,Coordinadora,Enviado,,VTA0036,P004,4
+,,,,,VTA0109,2026-02-02,C005,V001,Efectivo,Interrapidísimo,Entregado,,VTA0037,P007,5
+,,,,,VTA0110,2026-05-04,C001,V001,Nequi,Coordinadora,Pendiente,,VTA0037,P002,4
+,,,,,VTA0111,2026-04-20,C005,V001,Transferencia,Servientrega,Enviado,,VTA0037,P008,5
+,,,,,VTA0112,2026-02-02,C002,V001,Efectivo,Servientrega,Pendiente,,VTA0038,P004,4
+,,,,,VTA0113,2026-02-10,C004,V001,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0038,P008,2
+,,,,,VTA0114,2026-04-28,C004,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0038,P003,5
+,,,,,VTA0115,2026-01-06,C001,V002,Tarjeta Crédito,Interrapidísimo,Pendiente,,VTA0039,P007,5
+,,,,,VTA0116,2026-01-29,C002,V003,Efectivo,Servientrega,Entregado,,VTA0039,P005,1
+,,,,,VTA0117,2026-05-02,C004,V003,Nequi,Interrapidísimo,Pendiente,,VTA0039,P008,2
+,,,,,VTA0118,2026-03-04,C002,V002,Transferencia,Interrapidísimo,Entregado,,VTA0040,P003,3
+,,,,,VTA0119,2026-06-26,C005,V003,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0040,P005,1
+,,,,,VTA0120,2026-04-24,C004,V002,Nequi,Servientrega,Enviado,,VTA0040,P004,5
+,,,,,VTA0121,2026-02-21,C005,V003,Tarjeta Crédito,Servientrega,Entregado,,VTA0041,P002,3
+,,,,,VTA0122,2026-02-05,C001,V002,Tarjeta Crédito,Servientrega,Enviado,,VTA0041,P005,5
+,,,,,VTA0123,2026-05-10,C002,V001,Nequi,Interrapidísimo,Entregado,,VTA0041,P006,4
+,,,,,VTA0124,2026-05-16,C002,V001,Efectivo,Interrapidísimo,Entregado,,VTA0042,P003,1
+,,,,,VTA0125,2026-03-05,C002,V002,Nequi,Coordinadora,Pendiente,,VTA0042,P006,4
+,,,,,VTA0126,2026-05-30,C004,V002,Nequi,Coordinadora,Pendiente,,VTA0042,P002,5
+,,,,,VTA0127,2026-05-11,C004,V002,Nequi,Servientrega,Pendiente,,VTA0043,P005,4
+,,,,,VTA0128,2026-06-02,C001,V001,Efectivo,Interrapidísimo,Entregado,,VTA0043,P002,2
+,,,,,VTA0129,2026-03-18,C001,V002,Tarjeta Crédito,Servientrega,Enviado,,VTA0043,P004,4
+,,,,,VTA0130,2026-02-04,C002,V001,Nequi,Coordinadora,Pendiente,,VTA0044,P008,5
+,,,,,VTA0131,2026-04-29,C002,V001,Transferencia,Coordinadora,Enviado,,VTA0044,P004,3
+,,,,,VTA0132,2026-01-19,C001,V001,Efectivo,Interrapidísimo,Pendiente,,VTA0044,P007,1
+,,,,,VTA0133,2026-06-24,C005,V001,Nequi,Interrapidísimo,Pendiente,,VTA0045,P006,3
+,,,,,VTA0134,2026-03-06,C004,V002,Tarjeta Crédito,Servientrega,Enviado,,VTA0045,P001,1
+,,,,,VTA0135,2026-03-21,C002,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0045,P002,2
+,,,,,VTA0136,2026-01-12,C005,V001,Tarjeta Crédito,Servientrega,Pendiente,,VTA0046,P005,2
+,,,,,VTA0137,2026-06-24,C005,V002,Transferencia,Interrapidísimo,Pendiente,,VTA0046,P006,1
+,,,,,VTA0138,2026-06-08,C005,V002,Efectivo,Interrapidísimo,Pendiente,,VTA0046,P001,1
+,,,,,VTA0139,2026-01-21,C002,V002,Efectivo,Interrapidísimo,Enviado,,VTA0047,P005,3
+,,,,,VTA0140,2026-05-13,C003,V003,Nequi,Coordinadora,Entregado,,VTA0047,P007,5
+,,,,,VTA0141,2026-06-06,C003,V003,Transferencia,Servientrega,Entregado,,VTA0047,P004,1
+,,,,,VTA0142,2026-01-18,C005,V003,Nequi,Coordinadora,Pendiente,,VTA0048,P006,3
+,,,,,VTA0143,2026-01-12,C004,V001,Transferencia,Interrapidísimo,Pendiente,,VTA0048,P005,4
+,,,,,VTA0144,2026-01-09,C003,V003,Tarjeta Crédito,Coordinadora,Enviado,,VTA0048,P002,1
+,,,,,VTA0145,2026-04-23,C001,V002,Nequi,Interrapidísimo,Pendiente,,VTA0049,P003,2
+,,,,,VTA0146,2026-04-16,C004,V001,Transferencia,Coordinadora,Entregado,,VTA0049,P004,2
+,,,,,VTA0147,2026-03-20,C003,V003,Nequi,Interrapidísimo,Entregado,,VTA0049,P002,4
+,,,,,VTA0148,2026-03-05,C001,V002,Transferencia,Coordinadora,Entregado,,VTA0050,P002,2
+,,,,,VTA0149,2026-01-14,C003,V001,Efectivo,Servientrega,Entregado,,VTA0050,P007,1
+,,,,,VTA0150,2026-03-04,C001,V002,Efectivo,Interrapidísimo,Enviado,,VTA0050,P001,5
+,,,,,VTA0151,2026-06-29,C001,V001,Tarjeta Crédito,Interrapidísimo,Pendiente,,VTA0051,P003,1
+,,,,,VTA0152,2026-03-23,C002,V001,Efectivo,Servientrega,Entregado,,VTA0051,P005,3
+,,,,,VTA0153,2026-01-27,C002,V003,Tarjeta Crédito,Interrapidísimo,Entregado,,VTA0051,P001,1
+,,,,,VTA0154,2026-01-06,C002,V001,Tarjeta Crédito,Servientrega,Enviado,,VTA0052,P002,4
+,,,,,VTA0155,2026-06-26,C002,V002,Nequi,Coordinadora,Entregado,,VTA0052,P008,4
+,,,,,VTA0156,2026-06-13,C001,V002,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0052,P004,1
+,,,,,VTA0157,2026-05-25,C001,V002,Tarjeta Crédito,Interrapidísimo,Pendiente,,VTA0053,P001,1
+,,,,,VTA0158,2026-04-21,C001,V003,Nequi,Servientrega,Pendiente,,VTA0053,P005,2
+,,,,,VTA0159,2026-05-08,C003,V003,Nequi,Interrapidísimo,Entregado,,VTA0053,P006,1
+,,,,,VTA0160,2026-06-03,C002,V003,Efectivo,Servientrega,Entregado,,VTA0054,P003,4
+,,,,,VTA0161,2026-05-30,C002,V002,Nequi,Servientrega,Enviado,,VTA0054,P006,1
+,,,,,VTA0162,2026-05-25,C001,V003,Tarjeta Crédito,Servientrega,Pendiente,,VTA0054,P007,5
+,,,,,VTA0163,2026-05-01,C003,V003,Efectivo,Servientrega,Pendiente,,VTA0055,P008,5
+,,,,,VTA0164,2026-03-29,C002,V002,Nequi,Servientrega,Enviado,,VTA0055,P004,1
+,,,,,VTA0165,2026-01-04,C005,V003,Efectivo,Servientrega,Enviado,,VTA0055,P003,1
+,,,,,VTA0166,2026-06-19,C002,V002,Efectivo,Coordinadora,Entregado,,VTA0056,P005,5
+,,,,,VTA0167,2026-06-01,C001,V002,Efectivo,Interrapidísimo,Enviado,,VTA0056,P006,5
+,,,,,VTA0168,2026-03-31,C003,V001,Nequi,Interrapidísimo,Enviado,,VTA0056,P007,1
+,,,,,VTA0169,2026-02-17,C004,V001,Efectivo,Servientrega,Pendiente,,VTA0057,P008,3
+,,,,,VTA0170,2026-05-18,C004,V003,Transferencia,Servientrega,Pendiente,,VTA0057,P003,5
+,,,,,VTA0171,2026-02-08,C005,V003,Tarjeta Crédito,Servientrega,Entregado,,VTA0057,P006,1
+,,,,,VTA0172,2026-05-03,C005,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0058,P005,2
+,,,,,VTA0173,2026-04-20,C004,V001,Transferencia,Interrapidísimo,Pendiente,,VTA0058,P003,2
+,,,,,VTA0174,2026-01-03,C001,V002,Nequi,Servientrega,Enviado,,VTA0058,P001,4
+,,,,,VTA0175,2026-03-06,C003,V003,Nequi,Coordinadora,Entregado,,VTA0059,P001,5
+,,,,,VTA0176,2026-03-14,C002,V003,Nequi,Interrapidísimo,Pendiente,,VTA0059,P004,5
+,,,,,VTA0177,2026-05-04,C005,V002,Nequi,Coordinadora,Enviado,,VTA0059,P008,2
+,,,,,VTA0178,2026-02-25,C001,V003,Transferencia,Servientrega,Enviado,,VTA0060,P001,5
+,,,,,VTA0179,2026-06-26,C005,V002,Tarjeta Crédito,Coordinadora,Pendiente,,VTA0060,P002,4
+,,,,,VTA0180,2026-05-28,C004,V003,Tarjeta Crédito,Servientrega,Enviado,,VTA0060,P007,1
+,,,,,VTA0181,2026-04-12,C002,V003,Transferencia,Servientrega,Enviado,,VTA0061,P004,5
+,,,,,VTA0182,2026-01-09,C003,V002,Transferencia,Coordinadora,Pendiente,,VTA0061,P007,5
+,,,,,VTA0183,2026-06-20,C005,V001,Tarjeta Crédito,Interrapidísimo,Entregado,,VTA0061,P002,1
+,,,,,VTA0184,2026-06-14,C004,V002,Efectivo,Coordinadora,Enviado,,VTA0062,P006,1
+,,,,,VTA0185,2026-05-14,C003,V001,Transferencia,Interrapidísimo,Enviado,,VTA0062,P005,2
+,,,,,VTA0186,2026-01-28,C004,V001,Nequi,Servientrega,Entregado,,VTA0062,P003,5
+,,,,,VTA0187,2026-04-22,C005,V002,Tarjeta Crédito,Interrapidísimo,Enviado,,VTA0063,P007,1
+,,,,,VTA0188,2026-04-25,C001,V002,Transferencia,Servientrega,Enviado,,VTA0063,P005,3
+,,,,,VTA0189,2026-04-13,C003,V001,Transferencia,Interrapidísimo,Pendiente,,VTA0063,P001,2
+,,,,,VTA0190,2026-05-20,C004,V003,Nequi,Coordinadora,Pendiente,,VTA0064,P004,4
+,,,,,VTA0191,2026-05-30,C005,V001,Efectivo,Coordinadora,Entregado,,VTA0064,P001,1
+,,,,,VTA0192,2026-01-01,C003,V002,Efectivo,Coordinadora,Entregado,,VTA0064,P007,2
+,,,,,VTA0193,2026-01-13,C003,V001,Nequi,Interrapidísimo,Enviado,,VTA0065,P006,1
+,,,,,VTA0194,2026-06-26,C003,V003,Transferencia,Coordinadora,Enviado,,VTA0065,P003,2
+,,,,,VTA0195,2026-04-09,C002,V001,Transferencia,Coordinadora,Enviado,,VTA0065,P004,3
+,,,,,VTA0196,2026-01-05,C001,V002,Efectivo,Servientrega,Enviado,,VTA0066,P007,4
+,,,,,VTA0197,2026-05-28,C002,V001,Nequi,Interrapidísimo,Enviado,,VTA0066,P005,3
+,,,,,VTA0198,2026-02-19,C005,V003,Nequi,Coordinadora,Enviado,,VTA0066,P006,4
+,,,,,VTA0199,2026-06-14,C003,V002,Tarjeta Crédito,Servientrega,Entregado,,VTA0067,P005,2
+,,,,,VTA0200,2026-03-05,C003,V001,Efectivo,Coordinadora,Enviado,,VTA0067,P003,3
+,,,,,,,,,,,,,VTA0067,P008,5
+,,,,,,,,,,,,,VTA0068,P002,3
+,,,,,,,,,,,,,VTA0068,P001,3
+,,,,,,,,,,,,,VTA0068,P004,5
+,,,,,,,,,,,,,VTA0069,P006,1
+,,,,,,,,,,,,,VTA0069,P001,2
+,,,,,,,,,,,,,VTA0069,P008,3
+,,,,,,,,,,,,,VTA0070,P001,3
+,,,,,,,,,,,,,VTA0070,P007,1
+,,,,,,,,,,,,,VTA0070,P003,3
+,,,,,,,,,,,,,VTA0071,P004,2
+,,,,,,,,,,,,,VTA0071,P002,5
+,,,,,,,,,,,,,VTA0071,P007,4
+,,,,,,,,,,,,,VTA0072,P001,2
+,,,,,,,,,,,,,VTA0072,P006,3
+,,,,,,,,,,,,,VTA0072,P003,2
+,,,,,,,,,,,,,VTA0073,P006,4
+,,,,,,,,,,,,,VTA0073,P003,2
+,,,,,,,,,,,,,VTA0073,P004,3
+,,,,,,,,,,,,,VTA0074,P007,2
+,,,,,,,,,,,,,VTA0074,P001,4
+,,,,,,,,,,,,,VTA0074,P008,2
+,,,,,,,,,,,,,VTA0075,P005,2
+,,,,,,,,,,,,,VTA0075,P001,3
+,,,,,,,,,,,,,VTA0075,P007,4
+,,,,,,,,,,,,,VTA0076,P003,4
+,,,,,,,,,,,,,VTA0076,P001,1
+,,,,,,,,,,,,,VTA0076,P002,2
+,,,,,,,,,,,,,VTA0077,P001,2
+,,,,,,,,,,,,,VTA0077,P004,1
+,,,,,,,,,,,,,VTA0077,P002,1
+,,,,,,,,,,,,,VTA0078,P005,2
+,,,,,,,,,,,,,VTA0078,P002,3
+,,,,,,,,,,,,,VTA0078,P001,1
+,,,,,,,,,,,,,VTA0079,P007,1
+,,,,,,,,,,,,,VTA0079,P008,3
+,,,,,,,,,,,,,VTA0079,P005,2
+,,,,,,,,,,,,,VTA0080,P004,3
+,,,,,,,,,,,,,VTA0080,P005,3
+,,,,,,,,,,,,,VTA0080,P008,1
+,,,,,,,,,,,,,VTA0081,P006,4
+,,,,,,,,,,,,,VTA0081,P005,2
+,,,,,,,,,,,,,VTA0081,P007,2
+,,,,,,,,,,,,,VTA0082,P007,5
+,,,,,,,,,,,,,VTA0082,P004,2
+,,,,,,,,,,,,,VTA0082,P008,1
+,,,,,,,,,,,,,VTA0083,P006,5
+,,,,,,,,,,,,,VTA0083,P007,1
+,,,,,,,,,,,,,VTA0083,P002,1
+,,,,,,,,,,,,,VTA0084,P007,5
+,,,,,,,,,,,,,VTA0084,P002,2
+,,,,,,,,,,,,,VTA0084,P005,1
+,,,,,,,,,,,,,VTA0085,P006,2
+,,,,,,,,,,,,,VTA0085,P007,5
+,,,,,,,,,,,,,VTA0085,P004,3
+,,,,,,,,,,,,,VTA0086,P005,3
+,,,,,,,,,,,,,VTA0086,P008,1
+,,,,,,,,,,,,,VTA0086,P006,4
+,,,,,,,,,,,,,VTA0087,P005,3
+,,,,,,,,,,,,,VTA0087,P001,2
+,,,,,,,,,,,,,VTA0087,P004,2
+,,,,,,,,,,,,,VTA0088,P006,5
+,,,,,,,,,,,,,VTA0088,P003,4
+,,,,,,,,,,,,,VTA0088,P005,2
+,,,,,,,,,,,,,VTA0089,P003,5
+,,,,,,,,,,,,,VTA0089,P002,5
+,,,,,,,,,,,,,VTA0089,P001,1
+,,,,,,,,,,,,,VTA0090,P004,2
+,,,,,,,,,,,,,VTA0090,P006,5
+,,,,,,,,,,,,,VTA0090,P001,4
+,,,,,,,,,,,,,VTA0091,P002,5
+,,,,,,,,,,,,,VTA0091,P008,3
+,,,,,,,,,,,,,VTA0091,P007,3
+,,,,,,,,,,,,,VTA0092,P001,4
+,,,,,,,,,,,,,VTA0092,P008,5
+,,,,,,,,,,,,,VTA0092,P005,2
+,,,,,,,,,,,,,VTA0093,P005,5
+,,,,,,,,,,,,,VTA0093,P008,3
+,,,,,,,,,,,,,VTA0093,P003,5
+,,,,,,,,,,,,,VTA0094,P005,5
+,,,,,,,,,,,,,VTA0094,P008,3
+,,,,,,,,,,,,,VTA0094,P006,4
+,,,,,,,,,,,,,VTA0095,P007,5
+,,,,,,,,,,,,,VTA0095,P003,4
+,,,,,,,,,,,,,VTA0095,P001,5
+,,,,,,,,,,,,,VTA0096,P003,5
+,,,,,,,,,,,,,VTA0096,P007,4
+,,,,,,,,,,,,,VTA0096,P002,4
+,,,,,,,,,,,,,VTA0097,P006,4
+,,,,,,,,,,,,,VTA0097,P005,2
+,,,,,,,,,,,,,VTA0097,P004,4
+,,,,,,,,,,,,,VTA0098,P002,4
+,,,,,,,,,,,,,VTA0098,P008,3
+,,,,,,,,,,,,,VTA0098,P001,1
+,,,,,,,,,,,,,VTA0099,P008,2
+,,,,,,,,,,,,,VTA0099,P006,1
+,,,,,,,,,,,,,VTA0099,P007,3
+,,,,,,,,,,,,,VTA0100,P008,3
+,,,,,,,,,,,,,VTA0100,P001,3
+,,,,,,,,,,,,,VTA0100,P002,2
+,,,,,,,,,,,,,VTA0101,P004,1
+,,,,,,,,,,,,,VTA0101,P003,1
+,,,,,,,,,,,,,VTA0101,P002,5
+,,,,,,,,,,,,,VTA0102,P001,3
+,,,,,,,,,,,,,VTA0102,P004,4
+,,,,,,,,,,,,,VTA0102,P006,3
+,,,,,,,,,,,,,VTA0103,P003,5
+,,,,,,,,,,,,,VTA0103,P001,1
+,,,,,,,,,,,,,VTA0103,P008,5
+,,,,,,,,,,,,,VTA0104,P003,3
+,,,,,,,,,,,,,VTA0104,P008,2
+,,,,,,,,,,,,,VTA0104,P007,3
+,,,,,,,,,,,,,VTA0105,P005,1
+,,,,,,,,,,,,,VTA0105,P008,4
+,,,,,,,,,,,,,VTA0105,P007,5
+,,,,,,,,,,,,,VTA0106,P003,5
+,,,,,,,,,,,,,VTA0106,P008,3
+,,,,,,,,,,,,,VTA0106,P002,5
+,,,,,,,,,,,,,VTA0107,P005,2
+,,,,,,,,,,,,,VTA0107,P004,3
+,,,,,,,,,,,,,VTA0107,P007,3
+,,,,,,,,,,,,,VTA0108,P007,3
+,,,,,,,,,,,,,VTA0108,P004,4
+,,,,,,,,,,,,,VTA0108,P006,4
+,,,,,,,,,,,,,VTA0109,P003,4
+,,,,,,,,,,,,,VTA0109,P007,2
+,,,,,,,,,,,,,VTA0109,P004,1
+,,,,,,,,,,,,,VTA0110,P007,2
+,,,,,,,,,,,,,VTA0110,P008,3
+,,,,,,,,,,,,,VTA0110,P004,1
+,,,,,,,,,,,,,VTA0111,P005,2
+,,,,,,,,,,,,,VTA0111,P007,5
+,,,,,,,,,,,,,VTA0111,P006,2
+,,,,,,,,,,,,,VTA0112,P005,2
+,,,,,,,,,,,,,VTA0112,P008,2
+,,,,,,,,,,,,,VTA0112,P007,3
+,,,,,,,,,,,,,VTA0113,P003,3
+,,,,,,,,,,,,,VTA0113,P007,3
+,,,,,,,,,,,,,VTA0113,P005,5
+,,,,,,,,,,,,,VTA0114,P005,3
+,,,,,,,,,,,,,VTA0114,P002,1
+,,,,,,,,,,,,,VTA0114,P006,3
+,,,,,,,,,,,,,VTA0115,P008,4
+,,,,,,,,,,,,,VTA0115,P006,4
+,,,,,,,,,,,,,VTA0115,P003,5
+,,,,,,,,,,,,,VTA0116,P004,4
+,,,,,,,,,,,,,VTA0116,P005,1
+,,,,,,,,,,,,,VTA0116,P001,1
+,,,,,,,,,,,,,VTA0117,P008,2
+,,,,,,,,,,,,,VTA0117,P001,2
+,,,,,,,,,,,,,VTA0117,P005,1
+,,,,,,,,,,,,,VTA0118,P008,3
+,,,,,,,,,,,,,VTA0118,P001,5
+,,,,,,,,,,,,,VTA0118,P007,2
+,,,,,,,,,,,,,VTA0119,P002,5
+,,,,,,,,,,,,,VTA0119,P005,2
+,,,,,,,,,,,,,VTA0119,P007,5
+,,,,,,,,,,,,,VTA0120,P004,4
+,,,,,,,,,,,,,VTA0120,P001,3
+,,,,,,,,,,,,,VTA0120,P008,2
+,,,,,,,,,,,,,VTA0121,P003,1
+,,,,,,,,,,,,,VTA0121,P007,4
+,,,,,,,,,,,,,VTA0121,P008,4
+,,,,,,,,,,,,,VTA0122,P006,5
+,,,,,,,,,,,,,VTA0122,P003,3
+,,,,,,,,,,,,,VTA0122,P001,3
+,,,,,,,,,,,,,VTA0123,P006,2
+,,,,,,,,,,,,,VTA0123,P008,5
+,,,,,,,,,,,,,VTA0123,P007,4
+,,,,,,,,,,,,,VTA0124,P008,3
+,,,,,,,,,,,,,VTA0124,P007,3
+,,,,,,,,,,,,,VTA0124,P003,4
+,,,,,,,,,,,,,VTA0125,P007,5
+,,,,,,,,,,,,,VTA0125,P005,4
+,,,,,,,,,,,,,VTA0125,P008,2
+,,,,,,,,,,,,,VTA0126,P003,5
+,,,,,,,,,,,,,VTA0126,P006,5
+,,,,,,,,,,,,,VTA0126,P004,4
+,,,,,,,,,,,,,VTA0127,P001,1
+,,,,,,,,,,,,,VTA0127,P008,3
+,,,,,,,,,,,,,VTA0127,P006,4
+,,,,,,,,,,,,,VTA0128,P001,5
+,,,,,,,,,,,,,VTA0128,P003,1
+,,,,,,,,,,,,,VTA0128,P008,3
+,,,,,,,,,,,,,VTA0129,P008,1
+,,,,,,,,,,,,,VTA0129,P002,4
+,,,,,,,,,,,,,VTA0129,P004,2
+,,,,,,,,,,,,,VTA0130,P003,1
+,,,,,,,,,,,,,VTA0130,P001,4
+,,,,,,,,,,,,,VTA0130,P002,1
+,,,,,,,,,,,,,VTA0131,P001,1
+,,,,,,,,,,,,,VTA0131,P006,5
+,,,,,,,,,,,,,VTA0131,P004,2
+,,,,,,,,,,,,,VTA0132,P002,5
+,,,,,,,,,,,,,VTA0132,P003,2
+,,,,,,,,,,,,,VTA0132,P005,2
+,,,,,,,,,,,,,VTA0133,P001,2
+,,,,,,,,,,,,,VTA0133,P005,1
+,,,,,,,,,,,,,VTA0133,P006,1
+,,,,,,,,,,,,,VTA0134,P002,4
+,,,,,,,,,,,,,VTA0134,P001,5
+,,,,,,,,,,,,,VTA0134,P003,5
+,,,,,,,,,,,,,VTA0135,P007,3
+,,,,,,,,,,,,,VTA0135,P006,5
+,,,,,,,,,,,,,VTA0135,P002,5
+,,,,,,,,,,,,,VTA0136,P004,5
+,,,,,,,,,,,,,VTA0136,P002,2
+,,,,,,,,,,,,,VTA0136,P001,1
+,,,,,,,,,,,,,VTA0137,P004,1
+,,,,,,,,,,,,,VTA0137,P006,5
+,,,,,,,,,,,,,VTA0137,P002,3
+,,,,,,,,,,,,,VTA0138,P006,2
+,,,,,,,,,,,,,VTA0138,P008,1
+,,,,,,,,,,,,,VTA0138,P004,4
+,,,,,,,,,,,,,VTA0139,P007,3
+,,,,,,,,,,,,,VTA0139,P002,5
+,,,,,,,,,,,,,VTA0139,P004,2
+,,,,,,,,,,,,,VTA0140,P005,2
+,,,,,,,,,,,,,VTA0140,P008,3
+,,,,,,,,,,,,,VTA0140,P001,1
+,,,,,,,,,,,,,VTA0141,P005,5
+,,,,,,,,,,,,,VTA0141,P001,4
+,,,,,,,,,,,,,VTA0141,P004,2
+,,,,,,,,,,,,,VTA0142,P005,4
+,,,,,,,,,,,,,VTA0142,P001,1
+,,,,,,,,,,,,,VTA0142,P007,5
+,,,,,,,,,,,,,VTA0143,P003,1
+,,,,,,,,,,,,,VTA0143,P008,5
+,,,,,,,,,,,,,VTA0143,P001,5
+,,,,,,,,,,,,,VTA0144,P001,2
+,,,,,,,,,,,,,VTA0144,P004,3
+,,,,,,,,,,,,,VTA0144,P007,4
+,,,,,,,,,,,,,VTA0145,P002,3
+,,,,,,,,,,,,,VTA0145,P003,2
+,,,,,,,,,,,,,VTA0145,P006,2
+,,,,,,,,,,,,,VTA0146,P008,3
+,,,,,,,,,,,,,VTA0146,P003,2
+,,,,,,,,,,,,,VTA0146,P007,4
+,,,,,,,,,,,,,VTA0147,P001,5
+,,,,,,,,,,,,,VTA0147,P002,5
+,,,,,,,,,,,,,VTA0147,P005,2
+,,,,,,,,,,,,,VTA0148,P001,5
+,,,,,,,,,,,,,VTA0148,P006,1
+,,,,,,,,,,,,,VTA0148,P005,3
+,,,,,,,,,,,,,VTA0149,P005,3
+,,,,,,,,,,,,,VTA0149,P004,4
+,,,,,,,,,,,,,VTA0149,P001,3
+,,,,,,,,,,,,,VTA0150,P001,4
+,,,,,,,,,,,,,VTA0150,P007,4
+,,,,,,,,,,,,,VTA0150,P005,2
+,,,,,,,,,,,,,VTA0151,P005,4
+,,,,,,,,,,,,,VTA0151,P004,5
+,,,,,,,,,,,,,VTA0151,P002,1
+,,,,,,,,,,,,,VTA0152,P006,4
+,,,,,,,,,,,,,VTA0152,P005,4
+,,,,,,,,,,,,,VTA0152,P001,1
+,,,,,,,,,,,,,VTA0153,P002,5
+,,,,,,,,,,,,,VTA0153,P007,5
+,,,,,,,,,,,,,VTA0153,P008,2
+,,,,,,,,,,,,,VTA0154,P002,4
+,,,,,,,,,,,,,VTA0154,P003,2
+,,,,,,,,,,,,,VTA0154,P005,2
+,,,,,,,,,,,,,VTA0155,P007,2
+,,,,,,,,,,,,,VTA0155,P003,1
+,,,,,,,,,,,,,VTA0155,P001,2
+,,,,,,,,,,,,,VTA0156,P001,3
+,,,,,,,,,,,,,VTA0156,P005,2
+,,,,,,,,,,,,,VTA0156,P007,2
+,,,,,,,,,,,,,VTA0157,P003,3
+,,,,,,,,,,,,,VTA0157,P006,4
+,,,,,,,,,,,,,VTA0157,P001,4
+,,,,,,,,,,,,,VTA0158,P006,3
+,,,,,,,,,,,,,VTA0158,P004,2
+,,,,,,,,,,,,,VTA0158,P002,4
+,,,,,,,,,,,,,VTA0159,P004,1
+,,,,,,,,,,,,,VTA0159,P001,2
+,,,,,,,,,,,,,VTA0159,P006,5
+,,,,,,,,,,,,,VTA0160,P006,1
+,,,,,,,,,,,,,VTA0160,P007,4
+,,,,,,,,,,,,,VTA0160,P003,3
+,,,,,,,,,,,,,VTA0161,P003,4
+,,,,,,,,,,,,,VTA0161,P006,4
+,,,,,,,,,,,,,VTA0161,P005,1
+,,,,,,,,,,,,,VTA0162,P001,1
+,,,,,,,,,,,,,VTA0162,P007,4
+,,,,,,,,,,,,,VTA0162,P005,5
+,,,,,,,,,,,,,VTA0163,P001,4
+,,,,,,,,,,,,,VTA0163,P007,2
+,,,,,,,,,,,,,VTA0163,P003,2
+,,,,,,,,,,,,,VTA0164,P004,5
+,,,,,,,,,,,,,VTA0164,P002,1
+,,,,,,,,,,,,,VTA0164,P008,5
+,,,,,,,,,,,,,VTA0165,P004,4
+,,,,,,,,,,,,,VTA0165,P006,1
+,,,,,,,,,,,,,VTA0165,P003,5
+,,,,,,,,,,,,,VTA0166,P003,2
+,,,,,,,,,,,,,VTA0166,P008,5
+,,,,,,,,,,,,,VTA0166,P002,3
+,,,,,,,,,,,,,VTA0167,P003,5
+,,,,,,,,,,,,,VTA0167,P004,2
+,,,,,,,,,,,,,VTA0167,P007,5
+,,,,,,,,,,,,,VTA0168,P004,1
+,,,,,,,,,,,,,VTA0168,P003,2
+,,,,,,,,,,,,,VTA0168,P001,3
+,,,,,,,,,,,,,VTA0169,P004,2
+,,,,,,,,,,,,,VTA0169,P006,1
+,,,,,,,,,,,,,VTA0169,P001,5
+,,,,,,,,,,,,,VTA0170,P004,4
+,,,,,,,,,,,,,VTA0170,P001,3
+,,,,,,,,,,,,,VTA0170,P005,2
+,,,,,,,,,,,,,VTA0171,P008,2
+,,,,,,,,,,,,,VTA0171,P002,1
+,,,,,,,,,,,,,VTA0171,P001,1
+,,,,,,,,,,,,,VTA0172,P001,5
+,,,,,,,,,,,,,VTA0172,P002,2
+,,,,,,,,,,,,,VTA0172,P008,2
+,,,,,,,,,,,,,VTA0173,P002,2
+,,,,,,,,,,,,,VTA0173,P004,5
+,,,,,,,,,,,,,VTA0173,P006,2
+,,,,,,,,,,,,,VTA0174,P001,5
+,,,,,,,,,,,,,VTA0174,P007,2
+,,,,,,,,,,,,,VTA0174,P002,3
+,,,,,,,,,,,,,VTA0175,P004,1
+,,,,,,,,,,,,,VTA0175,P008,5
+,,,,,,,,,,,,,VTA0175,P006,3
+,,,,,,,,,,,,,VTA0176,P003,1
+,,,,,,,,,,,,,VTA0176,P004,4
+,,,,,,,,,,,,,VTA0176,P002,2
+,,,,,,,,,,,,,VTA0177,P005,4
+,,,,,,,,,,,,,VTA0177,P007,3
+,,,,,,,,,,,,,VTA0177,P006,3
+,,,,,,,,,,,,,VTA0178,P007,5
+,,,,,,,,,,,,,VTA0178,P006,2
+,,,,,,,,,,,,,VTA0178,P002,5
+,,,,,,,,,,,,,VTA0179,P001,5
+,,,,,,,,,,,,,VTA0179,P002,5
+,,,,,,,,,,,,,VTA0179,P005,5
+,,,,,,,,,,,,,VTA0180,P001,5
+,,,,,,,,,,,,,VTA0180,P005,3
+,,,,,,,,,,,,,VTA0180,P004,4
+,,,,,,,,,,,,,VTA0181,P003,5
+,,,,,,,,,,,,,VTA0181,P007,4
+,,,,,,,,,,,,,VTA0181,P005,4
+,,,,,,,,,,,,,VTA0182,P002,2
+,,,,,,,,,,,,,VTA0182,P008,5
+,,,,,,,,,,,,,VTA0182,P004,4
+,,,,,,,,,,,,,VTA0183,P002,1
+,,,,,,,,,,,,,VTA0183,P003,3
+,,,,,,,,,,,,,VTA0183,P008,4
+,,,,,,,,,,,,,VTA0184,P002,2
+,,,,,,,,,,,,,VTA0184,P003,5
+,,,,,,,,,,,,,VTA0184,P008,2
+,,,,,,,,,,,,,VTA0185,P004,4
+,,,,,,,,,,,,,VTA0185,P007,1
+,,,,,,,,,,,,,VTA0185,P003,3
+,,,,,,,,,,,,,VTA0186,P006,1
+,,,,,,,,,,,,,VTA0186,P008,5
+,,,,,,,,,,,,,VTA0186,P007,3
+,,,,,,,,,,,,,VTA0187,P005,5
+,,,,,,,,,,,,,VTA0187,P004,1
+,,,,,,,,,,,,,VTA0187,P002,1
+,,,,,,,,,,,,,VTA0188,P004,4
+,,,,,,,,,,,,,VTA0188,P002,5
+,,,,,,,,,,,,,VTA0188,P006,5
+,,,,,,,,,,,,,VTA0189,P005,4
+,,,,,,,,,,,,,VTA0189,P007,5
+,,,,,,,,,,,,,VTA0189,P008,2
+,,,,,,,,,,,,,VTA0190,P002,1
+,,,,,,,,,,,,,VTA0190,P005,5
+,,,,,,,,,,,,,VTA0190,P006,4
+,,,,,,,,,,,,,VTA0191,P007,5
+,,,,,,,,,,,,,VTA0191,P003,5
+,,,,,,,,,,,,,VTA0191,P004,1
+,,,,,,,,,,,,,VTA0192,P002,4
+,,,,,,,,,,,,,VTA0192,P008,1
+,,,,,,,,,,,,,VTA0192,P004,5
+,,,,,,,,,,,,,VTA0193,P006,1
+,,,,,,,,,,,,,VTA0193,P001,3
+,,,,,,,,,,,,,VTA0193,P004,1
+,,,,,,,,,,,,,VTA0194,P004,1
+,,,,,,,,,,,,,VTA0194,P001,5
+,,,,,,,,,,,,,VTA0194,P005,3
+,,,,,,,,,,,,,VTA0195,P002,5
+,,,,,,,,,,,,,VTA0195,P007,1
+,,,,,,,,,,,,,VTA0195,P001,3
+,,,,,,,,,,,,,VTA0196,P007,2
+,,,,,,,,,,,,,VTA0196,P006,3
+,,,,,,,,,,,,,VTA0196,P003,4
+,,,,,,,,,,,,,VTA0197,P003,1
+,,,,,,,,,,,,,VTA0197,P008,4
+,,,,,,,,,,,,,VTA0197,P002,2
+,,,,,,,,,,,,,VTA0198,P006,1
+,,,,,,,,,,,,,VTA0198,P005,1
+,,,,,,,,,,,,,VTA0198,P007,2
+,,,,,,,,,,,,,VTA0199,P002,5
+,,,,,,,,,,,,,VTA0199,P008,3
+,,,,,,,,,,,,,VTA0199,P001,3
+,,,,,,,,,,,,,VTA0200,P007,3
+,,,,,,,,,,,,,VTA0200,P006,4
+,,,,,,,,,,,,,VTA0200,P003,4
